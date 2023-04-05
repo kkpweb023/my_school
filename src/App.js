@@ -8,11 +8,11 @@ function App() {
   return (
     <div style={{ position: "relative" }}>
     <NavBar />
-    <Routes basename="/school_notes">
+    <Routes basename="/notes">
         
         <Route>
             <Route path='/' element={<h1>Home</h1>} />
-            <Route path='/notes/:info' element={<h1>Class 9 page</h1>} />         
+            <Route path='/class_9' element={<h1>Class 9 page</h1>} />         
         </Route>
 
     </Routes>
