@@ -1,24 +1,37 @@
-import React from 'react';
+import React,{ createContext, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import NavBar from './Services/NavBar';
-import Footer from './Services/Footer';
+import NavBar from './Service/NavBar/NavBar';
+import Footer from './Service/Footer/Footer';
+
+
+export const MyContext = createContext();
 
 function App() {
+
+  const [showMob, setShowMob] = useState(false);
+
+  
   return (
-    <div style={{ position: "relative" }}>
-    <NavBar />
-    <Routes basename="/notes">
-        
-        <Route>
-            <Route path='/' element={<h1>Home</h1>} />
-            <Route path='/class_9' element={<h1>Class 9 page</h1>} />         
-        </Route>
 
-    </Routes>
-    <Footer />
+    <MyContext.Provider value={{ showMob:showMob,setShowMob:setShowMob}} >
 
-</div>
+      <div>
+
+        <NavBar />
+
+        <Routes basename="/notes">
+
+          <Route path='/' element={<h1>Home Page</h1>} />
+
+
+        </Routes>
+
+
+        <Footer />
+
+      </div>
+      </MyContext.Provider>
   );
 }
 
