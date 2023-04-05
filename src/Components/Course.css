@@ -1,0 +1,11 @@
+Table{ 
+
+    margin-top: 30px;
+}
+
+
+
+Table > Tbody > tr > td,th{ 
+
+     border: 2px solid black;
+}
