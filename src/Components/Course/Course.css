@@ -4,3 +4,16 @@ Table > Tbody > tr > td,th{
 
      border: 1px solid black;
 }
+
+.notes_download{
+     position: relative;
+     left: 35%;
+     top: 6px;
+     border-radius: 8px;
+     border: none;
+     padding: 2px 10px;
+     font-size: medium;
+     font-weight: bolder;
+     color: brown;
+     background-color: lightskyblue;
+}
