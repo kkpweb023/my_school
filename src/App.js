@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import NavBar from './Service/NavBar/NavBar';
 import Footer from './Service/Footer/Footer';
-import Course from './Components/Course';
+import Course from './Components/Course/Course';
 
 
 export const MyContext = createContext();
