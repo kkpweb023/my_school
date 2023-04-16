@@ -1,0 +1,37 @@
+.mul_question>:first-child{
+
+    margin-left: 60px;
+}
+.mul_question>:last-child{
+
+   margin-left:16px;
+   display: flex;
+   justify-content: space-around;
+
+}
+
+.true_div,.fill_div,.full_div,.long_div>:first-child{
+
+    margin-left: 60px;
+}
+
+.fill_div>:first-child>:first-child{
+
+      font-weight: bold;
+}
+
+
+.match_div>:first-child{
+    margin-left: 60px;
+   
+}
+
+.match_cross{
+
+     display: flex;
+
+
+}
+
+
+

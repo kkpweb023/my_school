@@ -1,0 +1,20 @@
+{
+    "class3": [
+
+        {
+            "id":1,
+            "questionTitle":"Multiple choice questions.",
+            "multiQuesMarks":2
+        },
+        {
+
+              "id":2,
+              "questionTitle":"Write T for True and F for False.",
+              "multiQuesMarks":2
+
+              
+        }
+
+          
+    ]
+}

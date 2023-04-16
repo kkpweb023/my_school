@@ -1,0 +1,53 @@
+.PreMid{
+
+    border:5px double black;
+    width: 59%;
+    position: relative;
+    left:20%;
+    top: 10px;
+    padding:20px;
+}
+
+.PreMid>h5{
+
+     text-align: center;
+}
+
+.PreMid>.intro>.marks_class_intro{
+
+     text-align: right;
+}
+
+.PreMid>.intro>.sub_time_intro{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.Section{
+
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    text-decoration-line: underline;
+    margin-top: 10px;
+}
+
+.multiple_choice{
+
+    margin-top: 10px;
+
+}
+
+
+.multi_ques{
+    font-size:16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.multi_ques>div{  
+    font-weight: bold;
+
+}
+

@@ -15,7 +15,7 @@ const NavBar = () => {
         className="pt-0 pb-0 w-100"
       >
         <Navbar.Brand className="me-5 ms-3 fs-6 fw-bold">
-          E-shopper
+          My-School
         </Navbar.Brand>
 
         <Nav className="me-auto nav_bar">
@@ -43,6 +43,39 @@ const NavBar = () => {
               Class 10
             </NavDropdown.Item>
           </NavDropdown>
+
+
+
+
+
+          <NavDropdown
+            title="Examination Paper"
+            id="collasible-nav-dropdown"
+            className="menu width-2"
+            menuVariant="dark"
+          >
+            <NavDropdown.Item
+              as={Link}
+              to="/exam_paper/class_3"
+              className="menu-item"
+            >
+              Class 3
+            </NavDropdown.Item>
+
+            <NavDropdown.Item
+              as={Link}
+              to="/exam_paper/class_4"
+              className="menu-item"
+            >
+              Class 4
+            </NavDropdown.Item>
+
+          </NavDropdown>
+
+
+
+
+
         </Nav>
 
         <Nav className='nav_bar'>
