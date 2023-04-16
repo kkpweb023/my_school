@@ -1,11 +1,12 @@
 import React,{ createContext, useState } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes,Link } from 'react-router-dom';
 import './App.css';
 import NavBar from './Service/NavBar/NavBar';
 import Footer from './Service/Footer/Footer';
 import Course from './Components/Course/Course';
 import Class3 from './Components/Paper/Class3/Class3';
 import PreMid from './Components/Paper/Class3/PreMid';
+import pic from './Images/pageNot.avif'
 
 
 
@@ -30,13 +31,17 @@ function App() {
           <Route path='/course/class_9' element={<Course />} />
           <Route path='/exam_paper/class_3' element={<Class3 />} />
           <Route path='/exam_paper/class_3/pre_mid_C3' element={<PreMid />} />
-          <Route path='/exam_paper/class_3/half_yearly_C3' element={<h1>Half Yearly</h1>} />
-          <Route path='/exam_paper/class_3/post_mid_C3' element={<h1>Post Mid</h1>} />
-          <Route path='/exam_paper/class_3/annual_C3' element={<h1>Annual</h1>} />
+          <Route path='/exam_paper/class_3/half_yearly_C3' element={<h1>Page not active...</h1>} />
+          <Route path='/exam_paper/class_3/post_mid_C3' element={<h1>Page not active...</h1>} />
+          <Route path='/exam_paper/class_3/annual_C3' element={<h1>Page not active...</h1>} />
           
           <Route path='/exam_paper/class_4' element={<h1>Class 4</h1>} />
 
+
+
           
+          <Route path='/*' element={<h1><img src={pic} style={{ width: "100%",height:"80vh" }} alt='' /><Link to={'/'}>Back to home page</Link></h1>} />
+
         </Routes>
 
 
