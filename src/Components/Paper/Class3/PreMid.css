@@ -3,14 +3,16 @@
     border:5px double black;
     width: 59%;
     position: relative;
-    left:20%;
+    left:10%;
     top: 10px;
     padding:20px;
+    font-size: 14px;
 }
 
 .PreMid>h5{
 
      text-align: center;
+     font-size: 14px;
 }
 
 .PreMid>.intro>.marks_class_intro{
@@ -25,9 +27,8 @@
 }
 
 .Section{
-
+    font-size: 16px;
     text-align: center;
-    font-size: large;
     font-weight: bold;
     text-decoration-line: underline;
     margin-top: 10px;
@@ -41,7 +42,6 @@
 
 
 .multi_ques{
-    font-size:16px;
     display: flex;
     justify-content: space-between;
 }
@@ -51,3 +51,17 @@
 
 }
 
+
+.download_btn{
+
+    position: relative;
+    left: 35%;
+    top: 6px;
+    border-radius: 8px;
+    border: none;
+    padding: 2px 10px;
+    font-size: medium;
+    font-weight: bolder;
+    color: brown;
+    background-color: lightskyblue;
+}
