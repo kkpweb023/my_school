@@ -9,15 +9,9 @@ import { MyContext } from '../../App.js';
 
 function AppBar() {
 
-
-
     const {
         showMob, 
         setShowMob } = useContext(MyContext);
-
-
-
-
 
 
     return (
@@ -50,9 +44,19 @@ function AppBar() {
 
                                 <NavDropdown title="Categories" id="collasible-nav-dropdown" className='menu width-2 mb-4' menuVariant="dark">
 
-                                    <NavDropdown.Item as={Link} to='/course/class_9' className='menu-item' value={"smartphones"} onClick={()=>setShowMob(false)}>Class 9</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to='/course/class_9' className='menu-item' onClick={()=>setShowMob(false)}>Class 9</NavDropdown.Item>
 
-                                    <NavDropdown.Item as={Link} to='/course/class_10' value={"laptops"} className='menu-item' onClick={()=>setShowMob(false)}>Class 10</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to='/course/class_10' className='menu-item' onClick={()=>setShowMob(false)}>Class 10</NavDropdown.Item>
+
+                                </NavDropdown>
+
+
+
+                                <NavDropdown  title="Examination Paper" id="collasible-nav-dropdown" className='menu width-2 mb-4' menuVariant="dark">
+
+                                    <NavDropdown.Item as={Link} to="/exam_paper/class_3" className='menu-item'  onClick={()=>setShowMob(false)}>Class 3</NavDropdown.Item>
+
+                                    <NavDropdown.Item as={Link} to="/exam_paper/class_4" className='menu-item' onClick={()=>setShowMob(false)}>Class 4</NavDropdown.Item>
 
                                 </NavDropdown>
 
