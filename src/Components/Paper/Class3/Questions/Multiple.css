@@ -1,7 +1,4 @@
-.mul_question>:first-child{
 
-    margin-left: 60px;
-}
 .mul_question>:last-child{
 
    margin-left:16px;
@@ -10,7 +7,7 @@
 
 }
 
-.true_div,.fill_div,.full_div,.long_div>:first-child{
+.mul_question,.true_div,.fill_div,.full_div,.long_div>:first-child{
 
     margin-left: 60px;
 }
@@ -35,3 +32,22 @@
 
 
 
+@media (max-width:600px) {
+
+    .mul_question>:last-child{
+
+        margin-left:45px;
+
+     
+     }
+
+
+    .mul_question,.true_div,.fill_div,.full_div,.long_div>:first-child{
+
+        margin-left:30px;
+    }
+    
+
+
+    
+}
