@@ -22,6 +22,7 @@ const Home = () => {
 
             <div className='educator'>Trusted by educator at</div>
 
+          <h6 style={{color:"darkred",fontStyle:"italic"}}>Kaushal Pandey</h6>
     
       
     </div>
