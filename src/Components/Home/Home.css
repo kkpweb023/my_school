@@ -44,7 +44,7 @@
 
 .img{
 
-    width: 50%;
+    width:60%;
 }
 
 @media (max-width:820px) {
@@ -62,8 +62,30 @@
    .img{
 
      width:70%;
-   }
-   
+   }    
+}
 
-    
+
+@media (max-width:420px) {
+
+    .home_content{
+        display: block;
+    }
+
+    .educator{
+        position: absolute;
+        bottom:50px;
+        left:30%;
+   }
+
+   .head{
+
+    width:50%;
+
+}
+
+   .img{
+
+     width:70%;
+   }    
 }
