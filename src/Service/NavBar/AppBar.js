@@ -42,7 +42,7 @@ function AppBar() {
 
                                 <Nav.Link as={NavLink} to='/' className="menu" onClick={()=>setShowMob(false)}>Home</Nav.Link>
 
-                                <NavDropdown title="Categories" id="collasible-nav-dropdown" className='menu width-2 mb-4' menuVariant="dark">
+                                <NavDropdown title="Course" id="collasible-nav-dropdown" className='menu width-2 mb-4' menuVariant="dark">
 
                                     <NavDropdown.Item as={Link} to='/course/class_5' className='menu-item' onClick={()=>setShowMob(false)}>Class 5</NavDropdown.Item>
                                     
