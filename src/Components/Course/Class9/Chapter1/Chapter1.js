@@ -2,6 +2,7 @@ import React from "react";
 import Multiple1 from "./Mutiple1";
 import jsPDF from "jspdf";
 import './Chapter1.css';
+import TrueFalse from "./TrueFalse";
 
 const Chapter1 = () => {
 
@@ -30,6 +31,11 @@ const Chapter1 = () => {
           </div>
 
           <Multiple1 />
+
+          <div className="Ch1_ques">
+            <div className="Ch1_head_ques">2.State true of false</div>
+          </div>
+          <TrueFalse />
         </div>
       </div>
     </>
