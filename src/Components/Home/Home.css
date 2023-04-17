@@ -66,26 +66,18 @@
 }
 
 
-@media (max-width:420px) {
-
-    .home_content{
-        display: block;
-    }
+@media (max-width:440px) {
 
     .educator{
         position: absolute;
-        bottom:50px;
-        left:30%;
+        bottom:40px;
+        left:20%;
    }
 
    .head{
+        width:5%;
+        font-size:35px;
 
-    width:50%;
+    }
 
-}
-
-   .img{
-
-     width:70%;
-   }    
 }
