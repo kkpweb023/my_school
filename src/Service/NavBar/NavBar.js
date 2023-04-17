@@ -28,6 +28,31 @@ const NavBar = () => {
             className="menu width-2"
             menuVariant="dark"
           >
+
+            <NavDropdown.Item
+              as={Link}
+              to="/course/class_6"
+              className="menu-item"
+            >
+              Class 6
+            </NavDropdown.Item>
+
+            <NavDropdown.Item
+              as={Link}
+              to="/course/class_7"
+              className="menu-item"
+            >
+              Class 7
+            </NavDropdown.Item>
+
+            <NavDropdown.Item
+              as={Link}
+              to="/course/class_8"
+              className="menu-item"
+            >
+              Class 8
+            </NavDropdown.Item>
+
             <NavDropdown.Item
               as={Link}
               to="/course/class_9"

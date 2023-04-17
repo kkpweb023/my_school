@@ -30,7 +30,7 @@ function AppBar() {
                     >
                         <Offcanvas.Header closeButton>
                             <Offcanvas.Title id={`offcanvasNavbarLabel-expand-sm`} className="me-5 ms-3 fs-1 fw-bold">
-                                E-shopper
+                                My School
                             </Offcanvas.Title>
                         </Offcanvas.Header>
 
@@ -43,6 +43,14 @@ function AppBar() {
                                 <Nav.Link as={NavLink} to='/' className="menu" onClick={()=>setShowMob(false)}>Home</Nav.Link>
 
                                 <NavDropdown title="Categories" id="collasible-nav-dropdown" className='menu width-2 mb-4' menuVariant="dark">
+
+                                    <NavDropdown.Item as={Link} to='/course/class_5' className='menu-item' onClick={()=>setShowMob(false)}>Class 5</NavDropdown.Item>
+                                    
+                                    <NavDropdown.Item as={Link} to='/course/class_6' className='menu-item' onClick={()=>setShowMob(false)}>Class 6</NavDropdown.Item>
+
+                                    <NavDropdown.Item as={Link} to='/course/class_7' className='menu-item' onClick={()=>setShowMob(false)}>Class 7</NavDropdown.Item>
+
+                                    <NavDropdown.Item as={Link} to='/course/class_8' className='menu-item' onClick={()=>setShowMob(false)}>Class 8</NavDropdown.Item>
 
                                     <NavDropdown.Item as={Link} to='/course/class_9' className='menu-item' onClick={()=>setShowMob(false)}>Class 9</NavDropdown.Item>
 

@@ -25,14 +25,18 @@ const Class_9 = () => {
             <td>1</td>
             <td>Chapter 1</td>
             <td>
-              <Link to={"/course/class_9/chapter_1"}><img src={Pdf} alt="chapter_1" style={{width:"3%"}}/></Link>
+              <Link to={"/course/class_9/chapter_1"}>
+                <img src={Pdf} alt="chapter_1" style={{height:"35px"}}/>
+              </Link>
             </td>
           </tr>
           <tr>
             <td>2</td>
             <td>Chapter 2</td>
             <td>
-              <Link to={"/course/class_9/chapter_1"}><img src={Pdf} alt="chapter_1" style={{width:"3%"}}/></Link>
+              <Link to={"/course/class_9/chapter_2"} style={{textDecorationLine:"none"}}>
+                Not Active
+              </Link>
             </td>
             
           </tr>
@@ -40,14 +44,18 @@ const Class_9 = () => {
             <td>3</td>
             <td>Chapter 3</td>
             <td>
-              <Link to={"/course/class_9/chapter_1"}><img src={Pdf} alt="chapter_1" style={{width:"3%"}}/></Link>
+              <Link to={"/course/class_9/chapter_3"} style={{textDecorationLine:"none"}}>
+                Not Active
+              </Link>
             </td>
           </tr>
           <tr>
             <td>4</td>
             <td>Chapter 4</td>
             <td>
-              <Link to={"/course/class_9/chapter_1"}><img src={Pdf} alt="chapter_1" style={{width:"3%"}}/></Link>
+              <Link to={"/course/class_9/chapter_4"} style={{textDecorationLine:"none"}}>
+                Not Active
+              </Link>
             </td>
           </tr>
         </tbody>

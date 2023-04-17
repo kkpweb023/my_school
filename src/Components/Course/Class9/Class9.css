@@ -13,3 +13,11 @@
 
 }
 
+@media (max-width:800px) {
+
+      .table{
+            width:92%;   
+            margin: 5% 0px 0px 5%;  
+     }
+      
+}

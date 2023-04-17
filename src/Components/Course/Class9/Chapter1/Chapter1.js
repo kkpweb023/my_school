@@ -1,6 +1,7 @@
 import React from "react";
 import Multiple1 from "./Mutiple1";
 import jsPDF from "jspdf";
+import './Chapter1.css';
 
 const Chapter1 = () => {
 
@@ -19,12 +20,13 @@ const Chapter1 = () => {
     <>
       <button onClick={handleChapter1} className="notes_download">Download</button>
 
-      <div className="PreMid" id={"pdf"}>
-        <h5 className="h5">Chapter-1 Computer System</h5>
+      <div className="Chapter1_div" id={"pdf"}>
 
-        <div className="multiple_choice">
-          <div className="multi_ques">
-            <div className="main_ques">1. Multiple choice questions.</div>
+        <h4 className="head_1">Chapter-1 Computer System</h4>
+
+        <div className="Ch1_choice">
+          <div className="Ch1_ques">
+            <div className="Ch1_head_ques">1. Multiple choice questions.</div>
           </div>
 
           <Multiple1 />

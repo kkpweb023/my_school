@@ -1,0 +1,31 @@
+import React from 'react';
+import pic from '../../Images/study.PNG';
+import './Home.css';
+
+const Home = () => {
+  return (
+    <div className='Home_div'>
+
+            <div className='home_content'>
+
+                <div>
+                    <div className='head'>Build Better Assignments.</div>
+                    <div className='Quates'>Implementing best pedogogical practises can be yearly impossible.We make it easy.</div>
+                </div>
+
+ 
+
+            <img src={pic}  alt='study_pic'className='img'/>
+
+            </div>
+
+
+            <div className='educator'>Trusted by educator at</div>
+
+    
+      
+    </div>
+  )
+}
+
+export default Home;
