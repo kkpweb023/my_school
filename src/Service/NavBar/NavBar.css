@@ -25,10 +25,27 @@
   margin-left: 20px;
 }
 
+.img_logo{
+
+  width:32px;
+  height:32px;
+  margin:5px -15px 0px 10px;
+    
+}
+
+
+
 @media (max-width: 1010px) {
   .navBar_form {
     width: 18rem;
   }
+
+  .img_logo{
+
+    display: none;
+      
+  }
+  
 }
 
 @media (max-width: 767px) {

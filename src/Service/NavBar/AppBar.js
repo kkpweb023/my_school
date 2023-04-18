@@ -28,6 +28,7 @@ function AppBar() {
                         style={{ backgroundColor: "#3C2930", color: "white" }}
                         show={showMob} onHide={()=>setShowMob(false)}
                     >
+                        
                         <Offcanvas.Header closeButton>
                             <Offcanvas.Title id={`offcanvasNavbarLabel-expand-sm`} className="me-5 ms-3 fs-1 fw-bold">
                                 My School

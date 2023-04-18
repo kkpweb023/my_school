@@ -3,6 +3,7 @@ import "./NavBar.css";
 import { Button, Form, Nav, NavDropdown , Navbar } from "react-bootstrap";
 import { Link,NavLink } from 'react-router-dom';
 import AppBar from './AppBar';
+import logo from '../../Images/my_logo.png';
 
 
 const NavBar = () => {
@@ -14,6 +15,7 @@ const NavBar = () => {
         variant="dark"
         className="pt-0 pb-0 w-100"
       >
+        <img src={logo} alt="" className="img_logo" />
         <Navbar.Brand className="me-5 ms-3 fs-6 fw-bold">
           My-School
         </Navbar.Brand>
