@@ -58,6 +58,38 @@ const Class_9 = () => {
               </Link>
             </td>
           </tr>
+
+          <tr>
+            <td>5</td>
+            <td>Chapter 5</td>
+            <td>
+              <Link to={"/course/class_9/chapter_5"} style={{textDecorationLine:"none"}}>
+                Not Active
+              </Link>
+            </td>
+          </tr>
+
+          <tr>
+            <td>6</td>
+            <td>Chapter 6</td>
+            <td>
+              <Link to={"/course/class_9/chapter_6"} style={{textDecorationLine:"none"}}>
+                Not Active
+              </Link>
+            </td>
+          </tr>
+
+          <tr>
+            <td>7</td>
+            <td>Chapter 7</td>
+            <td>
+              <Link to={"/course/class_9/chapter_7"} style={{textDecorationLine:"none"}}>
+                Not Active
+              </Link>
+            </td>
+          </tr>
+
+
         </tbody>
       </table>
     </>
