@@ -35,7 +35,7 @@ const Class_9 = () => {
             <td>Chapter 2</td>
             <td>
               <Link to={"/course/class_9/chapter_2"} style={{textDecorationLine:"none"}}>
-                Not Active
+                <img src={Pdf} alt="chapter_2" style={{height:"35px"}}/>
               </Link>
             </td>
             

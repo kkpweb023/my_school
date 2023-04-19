@@ -10,7 +10,7 @@ const Multiple1 = () => {
 
           <div className="ch1_option">
                 <span>a. Speed</span>
-                <span>b. Feelings</span>
+                <span>b. Feelings(✔)</span>
                 <span>c. Obedience</span>
                 <span>d. Storage</span>
           </div>
@@ -23,7 +23,7 @@ const Multiple1 = () => {
           </div>
           <div className="ch1_option">
             <span>a. Primary Memory</span>
-            <span>b. Secondary Memory</span>
+            <span>b. Secondary Memory (✔)</span>
             <span>c. Both of these</span>
             <span>d. None of these</span>
           </div>
@@ -35,7 +35,7 @@ const Multiple1 = () => {
           </div>
           <div className="ch1_option">
             <span>a. ALU</span>
-            <span>b. CU</span>
+            <span>b. CU (✔)</span>
             <span>c. Register</span>
             <span>d. Cache</span>
           </div>
@@ -45,7 +45,7 @@ const Multiple1 = () => {
           <div>4. Which unit is responsible to give data/ instructions to the computer?</div>
           <div className="ch1_option">
             <span>a. Output Unit</span>
-            <span>b. Input Unit</span>
+            <span>b. Input Unit (✔)</span>
             <span>c. Processing Unit</span>
             <span>d. None</span>
           </div>

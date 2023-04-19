@@ -9,6 +9,7 @@ import Class3 from './Components/Paper/Class3/Class3';
 import pic from './Images/pageNot.avif'
 import Chapter1 from './Components/Course/Class9/Chapter1/Chapter1';
 import Home from './Components/Home/Home';
+import Chapter2 from './Components/Course/Class9/Chapter2/Chapter2';
 
 
 
@@ -34,6 +35,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/course/class_9' element={<Course />} />
           <Route path='/course/class_9/chapter_1' element={<Chapter1 />} />
+          <Route path='/course/class_9/chapter_2' element={<Chapter2 />} />
 
           <Route path='/exam_paper/class_3' element={<Class3 />} />
           <Route path='/exam_paper/class_3/pre_mid_C3' element={/*<PreMid />*/<h1>Page not active...</h1>} />

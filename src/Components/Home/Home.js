@@ -1,6 +1,7 @@
 import React from 'react';
 import pic from '../../Images/study.PNG';
 import './Home.css';
+import Marquee from "react-fast-marquee";
 
 const Home = () => {
   return (
@@ -20,7 +21,7 @@ const Home = () => {
 
             <div className='educator'>Trusted by educator at</div>
 
-          <h6 style={{color:"darkred",fontStyle:"italic",position:"absolute",bottom:"0px",left:"10px"}}>Kaushal Pandey</h6>
+          <h5 style={{color:"darkred",fontStyle:"italic",position:"absolute",bottom:"0px",left:"10px"}}><Marquee play>Kaushal Pandey</Marquee></h5>
           
     </div>
   )
