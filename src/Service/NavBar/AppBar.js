@@ -1,9 +1,10 @@
 import React, { useContext } from 'react';
 import Container from 'react-bootstrap/Container';
-import { Button, Form, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import {Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { MyContext } from '../../App.js';
+
 
 
 
@@ -16,21 +17,22 @@ function AppBar() {
 
     return (
         <>
-            <Navbar bg="dark" variant="dark" expand={'sm'}  style={{ fontSize: "14px" }}>
+            <Navbar variant="light" expand={'sm'}  style={{ fontSize: "14px",backgroundColor:"rgb(212, 223, 65)"}} >
+                
                 <Container fluid>
-
+                     
                     <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-sm`} bg="dark" variant="dark" onClick={() => setShowMob(true)} />
 
 
                     <Navbar.Offcanvas
                         id={`offcanvasNavbar-expand-sm`}
                         aria-labelledby={`offcanvasNavbarLabel-expand-sm`}
-                        style={{ backgroundColor: "#3C2930", color: "white" }}
+                        style={{ backgroundColor: "rgb(212, 223, 65)", color: "white" }}
                         show={showMob} onHide={()=>setShowMob(false)}
                     >
                         
                         <Offcanvas.Header closeButton>
-                            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-sm`} className="me-5 ms-3 fs-1 fw-bold">
+                            <Offcanvas.Title id={`offcanvasNavbarLabel-expand-sm`} className="me-5 ms-3 fs-1 fw-bold" style={{color:"black"}}>
                                 My School
                             </Offcanvas.Title>
                         </Offcanvas.Header>
@@ -71,7 +73,7 @@ function AppBar() {
 
                             </Nav>
 
-                            <Form className="navBar_form d-flex mb-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Search Items">
+                            {/*<Form className="navBar_form d-flex mb-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Search Items">
                                 <Form.Control
                                     type="search"
                                     placeholder="Search notes,books..."
@@ -80,7 +82,7 @@ function AppBar() {
                                     style={{ fontSize: "15px", padding: "2px 15px 2px 15px" }}
                                 />
                                 <Button variant="success" className="me-5 text-white rounded-0 shadow-none" style={{ fontSize: "15px", padding: "2px 15px 2px 15px" }}>Search</Button>
-                            </Form>
+                            </Form>*/}
 
                                     <Nav>
                                         <Nav.Link as={NavLink} to='/login' className="menu" onClick={() => setShowMob(false)}>Login</Nav.Link>

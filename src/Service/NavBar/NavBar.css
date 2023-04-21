@@ -2,9 +2,17 @@
   margin-right: 50px;
 }
 
-.menu:hover {
-  background-color: rgb(56, 55, 55);
+.menu{
+  font-weight: 600;
 }
+
+.menu:hover{
+
+   background-color: rgb(223, 230, 130);
+}
+
+
+
 
 .cart-Icon {
   background-color: white;

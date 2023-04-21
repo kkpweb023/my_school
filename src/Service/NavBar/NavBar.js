@@ -1,6 +1,6 @@
 import React from "react";
 import "./NavBar.css";
-import { Button, Form, Nav, NavDropdown , Navbar } from "react-bootstrap";
+import { Nav, NavDropdown , Navbar } from "react-bootstrap";
 import { Link,NavLink } from 'react-router-dom';
 import AppBar from './AppBar';
 import logo from '../../Images/my_logo.png';
@@ -11,9 +11,9 @@ const NavBar = () => {
     <>
       <Navbar
         expand={"sm"}
-        bg="dark"
-        variant="dark"
-        className="pt-0 pb-0 w-100"
+        variant="light"
+        className="pt-0 pb-0 w-1000"
+        style={{backgroundColor:"rgb(212, 223, 65)"}}
       >
         <img src={logo} alt="" className="img_logo" />
         <Navbar.Brand className="me-5 ms-3 fs-6 fw-bold">
@@ -29,6 +29,7 @@ const NavBar = () => {
             id="collasible-nav-dropdown"
             className="menu width-2"
             menuVariant="dark"
+            
           >
 
             <NavDropdown.Item
@@ -74,7 +75,6 @@ const NavBar = () => {
 
 
 
-
           <NavDropdown
             title="Examination Paper"
             id="collasible-nav-dropdown"
@@ -101,11 +101,57 @@ const NavBar = () => {
 
 
 
+          <NavDropdown
+            title="Notes"
+            id="collasible-nav-dropdown"
+            className="menu width-2"
+            menuVariant="dark"
+          >
+            <NavDropdown.Item
+              as={Link}
+              to="/topic_notes/class_6"
+              className="menu-item"
+            >
+              Class 6
+            </NavDropdown.Item>
+
+            <NavDropdown.Item
+              as={Link}
+              to="/topic_notes/class_7"
+              className="menu-item"
+            >
+              Class 7
+            </NavDropdown.Item>
+
+            <NavDropdown.Item
+              as={Link}
+              to="/topic_notes/class_8"
+              className="menu-item"
+            >
+              Class 8
+            </NavDropdown.Item>
+
+
+            <NavDropdown.Item
+              as={Link}
+              to="/topic_notes/class_9"
+              className="menu-item"
+            >
+              Class 9
+            </NavDropdown.Item>
+
+          </NavDropdown>
+
+
+
+
+
 
 
         </Nav>
 
         <Nav className='nav_bar'>
+                {/*
                     <Form className="navBar_form d-flex pt-2 pb-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Search Items">
                         <Form.Control
                             type="search"
@@ -117,15 +163,16 @@ const NavBar = () => {
                 
                         <Button variant="success" className="me-5 text-white rounded-0 shadow-none" style={{fontSize:"15px",padding:"2px 15px 2px 15px"}}>Search</Button>
 
-                    </Form>
+                </Form> */}
                        
                     <Nav>
                         <Nav.Link as={NavLink} to='/login'  className="menu">Login</Nav.Link>
                     </Nav>  
-
+                    
                 </Nav>
-        <AppBar />
+                <AppBar />
       </Navbar>
+      
     </>
   );
 };
