@@ -21,9 +21,6 @@ const NavBar = () => {
 
 
 
-
-
-
   return (
     <>
       <Navbar
@@ -147,6 +144,7 @@ const NavBar = () => {
               as={Link}
               to="/exam_paper/class_3"
               className="menu-item"
+              onClick={()=>!auth? alert("Please login first.....") : ""}
             >
               Class 3
             </NavDropdown.Item>
@@ -155,6 +153,7 @@ const NavBar = () => {
               as={Link}
               to="/exam_paper/class_4"
               className="menu-item"
+              onClick={()=>!auth? alert("Please login first.....") : ""}
             >
               Class 4
             </NavDropdown.Item>
@@ -176,6 +175,7 @@ const NavBar = () => {
               as={Link}
               to="/add_Student_Details/class_5"
               className="menu-item"
+              onClick={()=>!auth? alert("Please login first.....") : ""}
             >
               Add students Class 5
             </NavDropdown.Item>
@@ -184,6 +184,7 @@ const NavBar = () => {
               as={Link}
               to="/add_Student_Marks/class_5"
               className="menu-item"
+              onClick={()=>!auth? alert("Please login first.....") : ""}
             >
               Students Marks Class 5
             </NavDropdown.Item>

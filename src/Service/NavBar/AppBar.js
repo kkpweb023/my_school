@@ -22,6 +22,14 @@ function AppBar() {
           setShowMob(false)
           navigate('/signUp');
         }
+
+        function handleExam(){
+
+            if(!auth){
+                alert("Please login first....")
+            }
+            setShowMob(false)
+        }
       
       
       
@@ -110,27 +118,15 @@ function AppBar() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-                             
-
                                     <Nav.Link as={NavLink}>
                                         <i className="bi bi-envelope-paper"></i>
                                     </Nav.Link>
                                    
                                 <NavDropdown  title="Examination Paper" id="collasible-nav-dropdown" className='menu width-2 mb-2' menuVariant="dark" style={{margin:"-50px 0px 0px 30px"}}>
 
-                                    <NavDropdown.Item as={Link} to="/exam_paper/class_3" className='menu-item'  onClick={()=>setShowMob(false)}>Class 3</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/exam_paper/class_3" className='menu-item'  onClick={handleExam}>Class 3</NavDropdown.Item>
 
-                                    <NavDropdown.Item as={Link} to="/exam_paper/class_4" className='menu-item' onClick={()=>setShowMob(false)}>Class 4</NavDropdown.Item>
+                                    <NavDropdown.Item as={Link} to="/exam_paper/class_4" className='menu-item' onClick={handleExam}>Class 4</NavDropdown.Item>
 
                                 </NavDropdown>
 
@@ -152,7 +148,7 @@ function AppBar() {
                                     as={Link}
                                     to="/add_Student_Details/class_5"
                                     className="menu-item"
-                                    onClick={()=>setShowMob(false)}
+                                    onClick={handleExam}
                                     >
                                     Add students Class 5
                                     </NavDropdown.Item>
@@ -161,7 +157,7 @@ function AppBar() {
                                     as={Link}
                                     to="/add_Student_Marks/class_5"
                                     className="menu-item"
-                                    onClick={()=>setShowMob(false)}
+                                    onClick={handleExam}
                                     >
                                     Students Marks Class 5
                                     </NavDropdown.Item>

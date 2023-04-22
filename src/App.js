@@ -46,7 +46,6 @@ function App() {
           <Route path='/course/class_9/chapter_1' element={<Chapter1 />} />
           <Route path='/course/class_9/chapter_2' element={<Chapter2 />} />
 
-
           <Route element={<Auth />}>
 
 
