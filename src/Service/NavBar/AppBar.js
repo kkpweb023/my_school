@@ -54,7 +54,7 @@ function AppBar() {
                 className="me-5 ms-3 fs-1 fw-bold"
                 style={{ color: "green" }}
               >
-                My School
+                My-School
               </Offcanvas.Title>
             </Offcanvas.Header>
 
@@ -85,7 +85,7 @@ function AppBar() {
                 <div className="app_menu">
                   <i
                     className="bi bi-book-half"
-                    style={{ margin: "15px 0px 0px 0px" }}
+                    style={{ margin: "20px 0px 0px 0px" }}
                   ></i>
 
                   <NavDropdown
@@ -93,7 +93,7 @@ function AppBar() {
                     id="collasible-nav-dropdown"
                     className="drop-menu width-2 mb-2"
                     menuVariant="dark"
-                    style={{ margin: "5px 0px 0px 30px" }}
+                    style={{ margin: "10px 0px 0px 30px" }}
                   >
                     <NavDropdown.Item
                       as={Link}
@@ -156,14 +156,14 @@ function AppBar() {
                 { /*====================== Notes ======================== */   }
 
                 <div className="app_menu">
-                  <i className="bi bi-pencil-fill"></i>
+                  <i className="bi bi-pencil-fill"  style={{ margin: "10px 0px 0px 0px" }}></i>
 
                   <NavDropdown
                     title="Notes"
                     id="collasible-nav-dropdown"
                     className="drop-menu width-2 mb-2"
                     menuVariant="dark"
-                    style={{ margin: "-10px 0px 0px 30px" }}
+                    style={{ margin: "0px 0px 0px 30px" }}
                   >
                     <NavDropdown.Item
                       as={Link}
@@ -207,14 +207,14 @@ function AppBar() {
                 { /*====================== Examination ======================== */   }
 
                 <div className="app_menu">
-                  <i className="bi bi-envelope-paper-fill"></i>
+                  <i className="bi bi-envelope-paper-fill"  style={{ margin: "10px 0px 0px 0px" }}></i>
 
                   <NavDropdown
                     title="Examination Paper"
                     id="collasible-nav-dropdown"
                     className="drop-menu width-2 mb-2"
                     menuVariant="dark"
-                    style={{ margin: "-10px 0px 0px 30px" }}
+                    style={{ margin: "0px 0px 0px 30px" }}
                   >
                     <NavDropdown.Item
                       as={Link}
@@ -243,14 +243,14 @@ function AppBar() {
 
 
                 <div className="app_menu">
-                  <i className="bi bi-person-lines-fill"></i>
+                  <i className="bi bi-person-lines-fill"  style={{ margin: "10px 0px 0px 0px" }}></i>
 
                   <NavDropdown
                     title="Students Details"
                     id="collasible-nav-dropdown"
                     className="drop-menu width-2"
                     menuVariant="dark"
-                    style={{ margin: "-10px 0px 0px 30px" }}
+                    style={{ margin: "0px 0px 0px 30px" }}
                   >
                     <NavDropdown.Item
                       as={Link}
@@ -304,7 +304,7 @@ function AppBar() {
                     className="app_menu"
                     onClick={() => setShowMob(false)}
                   >
-                    <i className="bi bi-person-fill-lock"></i> <span>Login</span>
+                    <i className="bi bi-person-fill-lock"  style={{ margin: "10px 0px 0px 0px" }}></i> <span  style={{ margin: "10px 0px 0px 30px" }}>Login</span>
                   </Nav.Link>
                 </Nav>
               )}

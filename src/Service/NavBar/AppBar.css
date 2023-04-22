@@ -13,20 +13,26 @@
   .app_menu > i {
 
     float: left;
-    font-size: 20px;
+    font-size:22px;
     margin: 0 10px 0 0;
     color: rgb(12, 110, 175);
+   
   }
  
   
   .app_menu > span {
     display: block;
     font-weight: 600;
+    font-size:22px;
+    text-transform: uppercase;
   }
 
   .app_menu > .drop-menu  {
     display: block;
     font-weight: 600;
+    font-size:22px;
+    text-transform: uppercase;
+    
   }
 
 
