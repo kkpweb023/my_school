@@ -1,23 +1,32 @@
-.table{
+.class_table{
 
        width:80%;
        margin: 5% 0px 0px 8%;
        text-align: center;
+       background-color: rgb(233, 245, 242);
 
 }
 
-.table >thead > tr{
-     
+.class_table >thead > tr{
       background-color: black;
       color: white;
-
 }
+
+.class_table>thead>tr>th{
+       padding:10px;
+}
+
+
+.class_table >tbody > tr>td{
+      padding:8px;
+}
+
+
 
 @media (max-width:800px) {
 
-      .table{
+      .class_table{
             width:92%;   
-            margin: 5% 0px 0px 5%;  
-     }
-      
+            margin: 5% 0px 0px 4%;  
+     } 
 }

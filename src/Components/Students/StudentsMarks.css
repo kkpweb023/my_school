@@ -1,0 +1,285 @@
+
+.students_div > .h2 {
+  font-size: 40px;
+  text-align: center;
+  background-color: antiquewhite;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(10, 122, 126);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Students_Details {
+  border: 1px solid black;
+  width: 80%;
+  margin: 30px 0px 0px 10%;
+  padding: 10px;
+  
+}
+
+.school_head {
+  display: flex;
+}
+
+.school_head>img{
+
+   width:10%;
+   padding:10px;
+}
+
+
+.school_name {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: red;
+}
+
+.class_name {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
+  padding: 2px 0px;
+  color: aqua;
+}
+
+.students_info {
+  padding:8px;
+  margin-top:2px;
+  background-color: bisque;
+  font-size:18px;
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+}
+
+
+
+caption {
+  background-color: rgb(116, 53, 116);
+  color: white;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  
+}
+
+
+.table_div{
+
+    display: flex;
+    width: 100%;
+   
+}
+
+.table{
+
+   margin-left:0px;
+   margin-top: 0px;
+}
+
+.table>thead>tr{
+
+   background-color: rgb(241, 138, 138);
+}
+
+
+
+.delete_students{
+
+    color: red;
+    cursor: pointer;
+}
+
+
+@media (max-width:1220px) {
+
+
+  .Students_Details {
+    margin: 30px 0px 0px 5%;
+    padding:0px;
+  }
+
+  .school_name {
+    font-size:30px;
+  }
+  
+  .class_name {
+    margin-top: 10px;
+    padding: 2px 0px;
+    color: aqua;
+  }
+
+  .students_info {
+    padding:5px;
+    margin-top:0px;
+    background-color: bisque;
+    font-size:14px;
+  }
+  
+  .table{
+    font-size:12px; 
+ }
+  
+}
+
+
+@media (max-width:1020px) {
+
+
+  .Students_Details {
+    margin: 25px 0px 0px 4%;
+    padding:0px;
+  }
+
+  .school_name {
+    font-size:20px;
+  }
+  
+  .class_name {
+    margin-top:0px;
+    padding: 0px 0px;
+
+  }
+
+  .students_info {
+    padding:2px;
+    margin-top:2px;
+    font-size:13px;
+  }
+  
+  caption{
+
+     font-size: 10px;
+  }
+
+  .table{
+    font-size:11px; 
+  }
+
+  .table>thead>tr>th{
+
+      font-size:10px;
+      padding:0px;
+      text-align: center;
+  }
+  
+}
+
+
+@media (max-width:665px) {
+
+
+  .Students_Details {
+    margin:20px 0px 0px 2%;
+    padding:0px;
+    width:95%;
+  }
+
+  .school_name {
+    font-size:18px;
+  }
+
+  .school_medium{
+
+     font-size: 14px;
+  }
+
+  
+  .class_name {
+    font-size: 12px;
+
+  }
+
+  .students_info {
+    padding:2px;
+    margin-top:2px;
+    font-size:13px;
+  }
+  
+  caption{
+
+     font-size: 8px;
+  }
+
+
+  .table{
+    font-size:10px; 
+  }
+
+  .table>thead>tr>th{
+
+      font-size:8px;
+      padding:0px 0px 0px 0px;
+      text-align: center;
+  }
+  
+  .table>tbody>tr>td{
+    font-size:8px;
+    padding:10px 0px 20px 2px;
+    text-align: center;
+    font-weight:700;
+}
+
+
+}
+
+
+
+@media (max-width:425px) {
+
+
+  .Students_Details {
+    margin:10px 0px 0px 1%;
+    padding:0px;
+    width:96%;
+  }
+
+  .school_name {
+    font-size:14px;
+  }
+
+  .school_medium{
+
+     font-size: 10px;
+  }
+
+  
+  .class_name {
+    font-size: 10px;
+
+  }
+
+  .students_info {
+    padding:1px;
+    margin-top:1px;
+    font-size:11px;
+  }
+  
+  caption{
+
+     font-size:8px;
+  }
+
+
+  .table{
+    font-size:8px; 
+  }
+
+  .table>thead>tr>th{
+
+      font-size:6px;
+      padding:0px 0px 0px 0px;
+      text-align: center;
+      font-weight:600;
+  }
+  
+  .table>tbody>tr>td{
+    font-size:6px;
+    padding:10px 0px 18px 2px;
+    text-align: center;
+    font-weight:900;
+}
+
+
+}

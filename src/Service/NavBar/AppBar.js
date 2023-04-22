@@ -4,7 +4,7 @@ import {Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { MyContext } from '../../App.js';
-
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -13,6 +13,18 @@ function AppBar() {
     const {
         showMob, 
         setShowMob } = useContext(MyContext);
+
+        const navigate = useNavigate();
+        const auth = localStorage.getItem('user');
+      
+        function UserLogout() {
+          localStorage.clear();
+          setShowMob(false)
+          navigate('/signUp');
+        }
+      
+      
+      
 
 
     return (
@@ -45,7 +57,7 @@ function AppBar() {
 
                                 <Nav.Link as={NavLink} to='/' className="menu" onClick={()=>setShowMob(false)}>Home</Nav.Link>
 
-                                <NavDropdown title="Course" id="collasible-nav-dropdown" className='menu width-2 mb-4' menuVariant="dark">
+                                <NavDropdown title="Course" id="collasible-nav-dropdown" className='menu width-2 mb-2' menuVariant="dark">
 
                                     <NavDropdown.Item as={Link} to='/course/class_5' className='menu-item' onClick={()=>setShowMob(false)}>Class 5</NavDropdown.Item>
                                     
@@ -63,11 +75,38 @@ function AppBar() {
 
 
 
-                                <NavDropdown  title="Examination Paper" id="collasible-nav-dropdown" className='menu width-2 mb-4' menuVariant="dark">
+                                <NavDropdown  title="Examination Paper" id="collasible-nav-dropdown" className='menu width-2 mb-2' menuVariant="dark">
 
                                     <NavDropdown.Item as={Link} to="/exam_paper/class_3" className='menu-item'  onClick={()=>setShowMob(false)}>Class 3</NavDropdown.Item>
 
                                     <NavDropdown.Item as={Link} to="/exam_paper/class_4" className='menu-item' onClick={()=>setShowMob(false)}>Class 4</NavDropdown.Item>
+
+                                </NavDropdown>
+
+                                                        
+                                <NavDropdown
+                                    title="Students Details"
+                                    id="collasible-nav-dropdown"
+                                    className="menu width-2"
+                                    menuVariant="dark"
+                                >
+                                    <NavDropdown.Item
+                                    as={Link}
+                                    to="/add_Student_Details/class_5"
+                                    className="menu-item"
+                                    onClick={()=>setShowMob(false)}
+                                    >
+                                    Add students Class 5
+                                    </NavDropdown.Item>
+
+                                    <NavDropdown.Item
+                                    as={Link}
+                                    to="/add_Student_Marks/class_5"
+                                    className="menu-item"
+                                    onClick={()=>setShowMob(false)}
+                                    >
+                                    Students Marks Class 5
+                                    </NavDropdown.Item>
 
                                 </NavDropdown>
 
@@ -84,10 +123,19 @@ function AppBar() {
                                 <Button variant="success" className="me-5 text-white rounded-0 shadow-none" style={{ fontSize: "15px", padding: "2px 15px 2px 15px" }}>Search</Button>
                             </Form>*/}
 
-                                    <Nav>
-                                        <Nav.Link as={NavLink} to='/login' className="menu" onClick={() => setShowMob(false)}>Login</Nav.Link>
-                                    </Nav>
-                            
+                {
+                   auth ? 
+                    <Nav>   
+                       <Nav.Link as={NavLink} to='/login' className='menu' onClick={UserLogout}>Logout</Nav.Link>
+                    </Nav> 
+                  :
+                    <Nav>
+                        <Nav.Link as={NavLink} to='/login' className="menu" onClick={() => setShowMob(false)}>Login</Nav.Link>
+                    </Nav>  
+                }
+
+                                
+                
                         </Offcanvas.Body>
                     </Navbar.Offcanvas>
 

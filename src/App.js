@@ -10,6 +10,15 @@ import pic from './Images/pageNot.avif'
 import Chapter1 from './Components/Course/Class9/Chapter1/Chapter1';
 import Home from './Components/Home/Home';
 import Chapter2 from './Components/Course/Class9/Chapter2/Chapter2';
+import Students from './Components/Students/Students';
+import StudentsMarks from './Components/Students/StudentsMarks';
+import Login from './Components/Admin/Login/Login';
+//import SignUp from './Components/Admin/SignUp/SignUp';
+import Auth from './Components/Admin/Auth/Auth';
+import Admin from './Components/Admin/ForAdmin/Admin';
+
+
+
 
 
 
@@ -47,7 +56,20 @@ function App() {
 
 
 
-          
+          <Route element={<Auth />}>
+
+            <Route path='/add_Student_Details/class_5' element={<Students />} />
+            <Route path='/add_Student_Marks/class_5' element={<StudentsMarks  />} />
+
+              <Route path='/logout' element={'Logout'} />
+
+          </Route>
+
+          <Route path='/signUp' element={<Admin />  /*<SignUp />*/ } />
+          <Route path='/login' element={<Login />} />
+
+
+
           <Route path='/*' element={<h1><img src={pic} style={{ width: "100%",height:"80vh" }} alt='' /><Link to={'/'}>Back to home page</Link></h1>} />
 
         </Routes>

@@ -1,0 +1,63 @@
+.background-radial-gradient {
+    background-color: hsl(218, 41%, 15%);
+    background-image: radial-gradient(
+        650px circle at 0% 0%,
+        hsl(218, 41%, 35%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%
+      ),
+      radial-gradient(
+        1250px circle at 100% 100%,
+        hsl(218, 41%, 45%) 15%,
+        hsl(218, 41%, 30%) 35%,
+        hsl(218, 41%, 20%) 75%,
+        hsl(218, 41%, 19%) 80%,
+        transparent 100%
+      );
+  }
+  
+  .bg-glass {
+    background-color: hsla(0, 0%, 100%, 0.9) !important;
+    backdrop-filter: saturate(200%) blur(25px);
+  }
+  
+  .only_admiin{
+   
+       font-size:65px;
+       text-align: center;
+       font-weight: 700;
+       color: #c4198b;
+       margin-top:70px;
+
+  }
+
+  .admin_div {
+    margin-top: -50px;
+    width: 150%;
+  }
+  
+  .admin_link-info{
+    margin-top:60px;
+    text-align: center;
+    font-weight: 600;
+    color: #8424bb;
+ }
+
+  .card-body >h2{
+       color: #8424bb;
+  }
+
+
+  @media (max-width: 991px) {
+    .admin_div {
+      margin-top: -50px;
+      width: 100%;
+    }
+  
+    .admin_div > img {
+      display: none;
+    }
+  }
+  

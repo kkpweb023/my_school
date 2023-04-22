@@ -4,9 +4,26 @@ import { Nav, NavDropdown , Navbar } from "react-bootstrap";
 import { Link,NavLink } from 'react-router-dom';
 import AppBar from './AppBar';
 import logo from '../../Images/my_logo.png';
-
+import { useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
+
+
+
+  const navigate = useNavigate();
+  const auth = localStorage.getItem('user');
+
+  function UserLogout() {
+    localStorage.clear();
+    navigate('/signUp');
+  }
+
+
+
+
+
+
+
   return (
     <>
       <Navbar
@@ -144,10 +161,32 @@ const NavBar = () => {
 
 
 
+          <NavDropdown
+            title="Students Details"
+            id="collasible-nav-dropdown"
+            className="menu width-2"
+            menuVariant="dark"
+          >
+            <NavDropdown.Item
+              as={Link}
+              to="/add_Student_Details/class_5"
+              className="menu-item"
+            >
+              Add students Class 5
+            </NavDropdown.Item>
 
+            <NavDropdown.Item
+              as={Link}
+              to="/add_Student_Marks/class_5"
+              className="menu-item"
+            >
+              Students Marks Class 5
+            </NavDropdown.Item>
 
+     
 
-
+          </NavDropdown>
+          
         </Nav>
 
         <Nav className='nav_bar'>
@@ -164,11 +203,17 @@ const NavBar = () => {
                         <Button variant="success" className="me-5 text-white rounded-0 shadow-none" style={{fontSize:"15px",padding:"2px 15px 2px 15px"}}>Search</Button>
 
                 </Form> */}
-                       
+
+                {
+                   auth ?     
+                    <NavDropdown.Item as={NavLink} to='/login' className='menu-item' onClick={UserLogout}>Logout</NavDropdown.Item>
+                  :
                     <Nav>
                         <Nav.Link as={NavLink} to='/login'  className="menu">Login</Nav.Link>
                     </Nav>  
+                }
                     
+
                 </Nav>
                 <AppBar />
       </Navbar>

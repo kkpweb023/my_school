@@ -6,17 +6,19 @@ import Pdf from '../../../Images/pdf.PNG';
 
 
 
+
+
 const Class_9 = () => {
 
 
   return (
     <>
       <UploadNote />
-      <table className="table">
+      <table className="class_table">
         <thead>
           <tr>
             <th>S.No.</th>
-            <th>Chapter</th>
+            <th>Chapters</th>
             <th>Files</th>
           </tr>
         </thead>
