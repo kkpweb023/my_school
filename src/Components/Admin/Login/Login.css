@@ -14,3 +14,18 @@
     }
     
   }
+
+
+  .btn:hover{
+
+     background-color: rgb(206, 240, 240);
+     font-weight: bold;
+     color: rgb(12, 121, 148);
+  }
+
+  .btn:active{
+
+    background-color: rgb(180, 233, 233);
+    font-weight: bold;
+    color: rgb(160, 220, 235);
+ }
