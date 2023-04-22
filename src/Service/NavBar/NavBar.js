@@ -93,32 +93,6 @@ const NavBar = () => {
 
 
           <NavDropdown
-            title="Examination Paper"
-            id="collasible-nav-dropdown"
-            className="menu width-2"
-            menuVariant="dark"
-          >
-            <NavDropdown.Item
-              as={Link}
-              to="/exam_paper/class_3"
-              className="menu-item"
-            >
-              Class 3
-            </NavDropdown.Item>
-
-            <NavDropdown.Item
-              as={Link}
-              to="/exam_paper/class_4"
-              className="menu-item"
-            >
-              Class 4
-            </NavDropdown.Item>
-
-          </NavDropdown>
-
-
-
-          <NavDropdown
             title="Notes"
             id="collasible-nav-dropdown"
             className="menu width-2"
@@ -158,6 +132,37 @@ const NavBar = () => {
             </NavDropdown.Item>
 
           </NavDropdown>
+
+
+
+
+          
+          <NavDropdown
+            title="Examination Paper"
+            id="collasible-nav-dropdown"
+            className="menu width-2"
+            menuVariant="dark"
+          >
+            <NavDropdown.Item
+              as={Link}
+              to="/exam_paper/class_3"
+              className="menu-item"
+            >
+              Class 3
+            </NavDropdown.Item>
+
+            <NavDropdown.Item
+              as={Link}
+              to="/exam_paper/class_4"
+              className="menu-item"
+            >
+              Class 4
+            </NavDropdown.Item>
+
+          </NavDropdown>
+
+
+
 
 
 

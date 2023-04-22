@@ -46,6 +46,10 @@ function App() {
           <Route path='/course/class_9/chapter_1' element={<Chapter1 />} />
           <Route path='/course/class_9/chapter_2' element={<Chapter2 />} />
 
+
+          <Route element={<Auth />}>
+
+
           <Route path='/exam_paper/class_3' element={<Class3 />} />
           <Route path='/exam_paper/class_3/pre_mid_C3' element={/*<PreMid />*/<h1>Page not active...</h1>} />
           <Route path='/exam_paper/class_3/half_yearly_C3' element={<h1>Page not active...</h1>} />
@@ -54,9 +58,6 @@ function App() {
           
           <Route path='/exam_paper/class_4' element={<h1>Class 4</h1>} />
 
-
-
-          <Route element={<Auth />}>
 
             <Route path='/add_Student_Details/class_5' element={<Students />} />
             <Route path='/add_Student_Marks/class_5' element={<StudentsMarks  />} />
