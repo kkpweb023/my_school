@@ -29,9 +29,10 @@ const NavBar = () => {
         className="pt-0 pb-0 w-1000"
         style={{backgroundColor:"rgb(212, 223, 65)"}}
       >
-        <img src={logo} alt="" className="img_logo" />
+        
         <Navbar.Brand className="me-5 ms-3 fs-6 fw-bold">
-          My-School
+        <img src={logo} alt="" className="img_logo" />
+          <span style={{marginLeft:"18px"}}>My-School</span>
         </Navbar.Brand>
 
         <Nav className="me-auto nav_bar">

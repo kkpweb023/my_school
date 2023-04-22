@@ -6,6 +6,8 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import { MyContext } from "../../App.js";
 import { useNavigate } from "react-router-dom";
 import "./AppBar.css";
+import logo from '../../Images/my_logo.png';
+
 
 function AppBar() {
   const { showMob, setShowMob } = useContext(MyContext);
@@ -34,13 +36,13 @@ function AppBar() {
         style={{ fontSize: "14px", backgroundColor: "rgb(212, 223, 65)" }}
       >
         <Container fluid>
+          
           <Navbar.Toggle
             aria-controls={`offcanvasNavbar-expand-sm`}
             bg="dark"
             variant="dark"
             onClick={() => setShowMob(true)}
           />
-
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-sm`}
             aria-labelledby={`offcanvasNavbarLabel-expand-sm`}
@@ -54,7 +56,8 @@ function AppBar() {
                 className="me-5 ms-3 fs-1 fw-bold"
                 style={{ color: "green" }}
               >
-                My-School
+                <img src={logo} alt="" style={{width:"40px",marginLeft:"-20px"}}/>
+                <span style={{marginLeft:"5px"}}>My-School</span>
               </Offcanvas.Title>
             </Offcanvas.Header>
 
@@ -292,8 +295,8 @@ function AppBar() {
                     className="app_menu"
                     onClick={UserLogout}
                   >
-                    <i className="bi bi-box-arrow-in-right"></i>
-                    <span>Logout</span>
+                    <i className="bi bi-box-arrow-in-right" style={{ margin: "10px 0px 0px -2px" }}></i>
+                    <span style={{ margin: "10px 0px 0px 30px" }}>Logout</span>
                   </Nav.Link>
                 </Nav>
               ) : (
