@@ -16,6 +16,7 @@ import Login from './Components/Admin/Login/Login';
 //import SignUp from './Components/Admin/SignUp/SignUp';
 import Auth from './Components/Admin/Auth/Auth';
 import Admin from './Components/Admin/ForAdmin/Admin';
+import Setting from './Service/Setting/Setting';
 
 
 
@@ -31,11 +32,30 @@ function App() {
 
 
   
+
+    //dark mode
+    const [clicked, setClicked] = useState(false);
+
+    function handleMode(){
+          if(!clicked){
+                setClicked(true)
+          }else{
+              setClicked(false)
+          }
+    }
+
+
+
+
+
+
+
+  
   return (
 
-    <MyContext.Provider value={{ showMob:showMob,setShowMob:setShowMob}} >
+    <MyContext.Provider value={{ showMob:showMob,setShowMob:setShowMob,handleMode:handleMode,}} >
 
-      <div>
+      <div className={`App ${clicked ? 'App_mode' : ""}`}>
 
         <NavBar />
 
@@ -68,7 +88,7 @@ function App() {
           <Route path='/signUp' element={<Admin />  /*<SignUp />*/ } />
           <Route path='/login' element={<Login />} />
 
-
+          <Route path='/setting' element={<Setting />} />
 
           <Route path='/*' element={<h1><img src={pic} style={{ width: "100%",height:"80vh" }} alt='' /><Link to={'/'}>Back to home page</Link></h1>} />
 

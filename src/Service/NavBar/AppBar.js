@@ -28,6 +28,9 @@ function AppBar() {
     setShowMob(false);
   }
 
+
+
+
   return (
     <>
       <Navbar
@@ -43,21 +46,22 @@ function AppBar() {
             variant="dark"
             onClick={() => setShowMob(true)}
           />
+          
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-sm`}
             aria-labelledby={`offcanvasNavbarLabel-expand-sm`}
-            style={{ backgroundColor: "rgb(212, 223, 65)", color: "white" }}
+            className="offcan_nav"
             show={showMob}
             onHide={() => setShowMob(false)}
-          >
+          ><div className="icon_back"></div>
             <Offcanvas.Header closeButton>
               <Offcanvas.Title
                 id={`offcanvasNavbarLabel-expand-sm`}
                 className="me-5 ms-3 fs-1 fw-bold"
-                style={{ color: "green" }}
+                style={{ color: "white" }}
               >
-                <img src={logo} alt="" style={{width:"40px",marginLeft:"-20px"}}/>
-                <span style={{marginLeft:"5px"}}>My-School</span>
+                <img src={logo} alt="" style={{width:"40px",marginLeft:"-20px",position:"absolute"}}/>
+                <span style={{marginLeft:"60px",fontSize:"25px"}}>My-School</span>
               </Offcanvas.Title>
             </Offcanvas.Header>
 
@@ -68,9 +72,14 @@ function AppBar() {
               onTouchMove={() => setShowMob(false)}
             >
 
-            { /*====================== Home ======================== */   }
+           
 
+              
               <Nav className="justify-content-end flex-grow-1 pe-3">
+                
+
+              { /*====================== Home ======================== */   }
+
                 <Nav.Link
                   as={NavLink}
                   to="/"
@@ -80,7 +89,6 @@ function AppBar() {
                   <i className="bi bi-house-door-fill"></i>
                   <span> Home</span>
                 </Nav.Link>
-
 
                 { /*====================== Course ======================== */   }
 
@@ -95,8 +103,8 @@ function AppBar() {
                     title="Course"
                     id="collasible-nav-dropdown"
                     className="drop-menu width-2 mb-2"
-                    menuVariant="dark"
-                    style={{ margin: "10px 0px 0px 30px" }}
+                    menuVariant="light"
+                    style={{ margin: "10px 0px 0px 50px" }}
                   >
                     <NavDropdown.Item
                       as={Link}
@@ -165,8 +173,8 @@ function AppBar() {
                     title="Notes"
                     id="collasible-nav-dropdown"
                     className="drop-menu width-2 mb-2"
-                    menuVariant="dark"
-                    style={{ margin: "0px 0px 0px 30px" }}
+                    menuVariant="light"
+                    style={{ margin: "0px 0px 0px 50px" }}
                   >
                     <NavDropdown.Item
                       as={Link}
@@ -216,8 +224,8 @@ function AppBar() {
                     title="Examination Paper"
                     id="collasible-nav-dropdown"
                     className="drop-menu width-2 mb-2"
-                    menuVariant="dark"
-                    style={{ margin: "0px 0px 0px 30px" }}
+                    menuVariant="light"
+                    style={{ margin: "0px 0px 0px 50px" }}
                   >
                     <NavDropdown.Item
                       as={Link}
@@ -252,8 +260,8 @@ function AppBar() {
                     title="Students Details"
                     id="collasible-nav-dropdown"
                     className="drop-menu width-2"
-                    menuVariant="dark"
-                    style={{ margin: "0px 0px 0px 30px" }}
+                    menuVariant="light"
+                    style={{ margin: "0px 0px 0px 50px" }}
                   >
                     <NavDropdown.Item
                       as={Link}
@@ -296,7 +304,7 @@ function AppBar() {
                     onClick={UserLogout}
                   >
                     <i className="bi bi-box-arrow-in-right" style={{ margin: "10px 0px 0px -2px" }}></i>
-                    <span style={{ margin: "10px 0px 0px 30px" }}>Logout</span>
+                    <span style={{ margin: "10px 0px 0px 50px" }}>Logout</span>
                   </Nav.Link>
                 </Nav>
               ) : (
@@ -307,10 +315,17 @@ function AppBar() {
                     className="app_menu"
                     onClick={() => setShowMob(false)}
                   >
-                    <i className="bi bi-person-fill-lock"  style={{ margin: "10px 0px 0px 0px" }}></i> <span  style={{ margin: "10px 0px 0px 30px" }}>Login</span>
+                    <i className="bi bi-person-fill-lock"  style={{ margin: "10px 0px 0px 0px" }}></i> <span  style={{ margin: "10px 0px 0px 50px" }}>Login</span>
                   </Nav.Link>
                 </Nav>
               )}
+               <Nav>
+                  <Nav.Link as={NavLink} className="app_setting" to="/setting" onClick={() => setShowMob(false)}>
+                     <i className="bi bi-gear-fill" style={{ margin: "10px 0px 0px 0px" }}></i>
+                     <span  style={{ margin: "10px 0px 0px 30px" }}>Setting</span>
+                  </Nav.Link>
+               </Nav>
+              
             </Offcanvas.Body>
           </Navbar.Offcanvas>
         </Container>

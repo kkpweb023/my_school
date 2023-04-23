@@ -5,9 +5,23 @@
     margin: 0;
     border-radius: 2px;
     position: relative;
-  
-
+    color: white;
   }
+
+  .app_setting{
+    padding: 0;
+    margin:0;
+    position: relative;
+    top:180px;
+    color: white;
+  }
+
+  .app_setting:hover{
+
+        color: rgb(226, 107, 107);
+  }
+
+
 
  
   .app_menu > i {
@@ -15,7 +29,7 @@
     float: left;
     font-size:22px;
     margin: 0 10px 0 0;
-    color: rgb(12, 110, 175);
+    color: white;
    
   }
  
@@ -24,25 +38,72 @@
     display: block;
     font-weight: 600;
     font-size:22px;
-    text-transform: uppercase;
-  }
+    margin-left: 50px;
+   
+}
 
-  .app_menu > .drop-menu  {
-    display: block;
+
+.offcan_nav{
+    background-color:rgb(28, 71, 209);
     font-weight: 600;
-    font-size:22px;
-    text-transform: uppercase;
+    font-size:22px;    
+    border-radius:8px;
+    width:340px;
+    opacity:0.95;
+
+}
+
+.icon_back{
+
+    background-color:rgb(12, 60, 204);
+     width:22%;
+     height:100%;
+     position: absolute;
+     border-bottom-left-radius: 8px;
+     border-top-left-radius: 8px;
+
     
-  }
+     
+    
+     
+}
 
 
+
+
+
+.dropdown-toggle{
+
+    color: white;
+}
+
+.dropdown-toggle:hover{
+
+   color: rgb(216, 173, 120);
+}
+
+
+
+.app_menu:hover >  span{
+
+   color: rgb(216, 173, 120);
+}
+
+
+
+
+
+
+
+
+
+ 
   .app_menu > small {
     display: block;
     font-size: 10px;
   }
 
-
-/*
+  
 .app_menu > i , .app_menu >  span , .app_menu>.drop-menu{
     position: relative;
     transition: all 300ms linear;
@@ -53,22 +114,22 @@
     animation: moveFromTop 300ms ease-in-out; 
 }
 
-.app_menu:hover >  span {
+.app_menu:focus >  span {
     opacity: 1;
     animation: moveFromLeft 300ms ease-in-out;
 }
 
-.app_menu:hover >  .drop-menu {
+.app_menu:focus >  .drop-menu {
     opacity: 1;
     animation: moveFromLeft 300ms ease-in-out;
 }
 
- */
+
 
 
 /* == */
 
-/*
+
 
 @keyframes moveFromTop {
     from {
@@ -101,4 +162,3 @@
     }
 }
 
-*/
