@@ -25,22 +25,21 @@
     background-image: url('../../Images/Pic5.jpg');  
     
   }
-  25% {
+  28% {
     background-image: url('../../Images/Pic6.jpg');
 
   }
-  50% {
+  55% {
     background-image: url('../../Images/Pic7.jpg');
 
   }
-  75% {
+  78% {
     background-image: url('../../Images/Pic8.jpg');
   }
-  100% {
-    background-image: url('../../Images/Pic4.jpg');
+ 
 
   }
- }
+ 
 
 /*=====================background image css slide close =================*/
 
