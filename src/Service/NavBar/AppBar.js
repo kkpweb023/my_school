@@ -10,6 +10,8 @@ import logo from '../../Images/my_logo.png';
 
 
 function AppBar() {
+
+  const {setFlag,flag} = useContext(MyContext);
   const { showMob, setShowMob } = useContext(MyContext);
 
   const navigate = useNavigate();
@@ -22,12 +24,11 @@ function AppBar() {
   }
 
   function handleExam() {
-    if (!auth) {
-      alert("Only for admin or login first....");
-    }
     setShowMob(false);
+    if(flag===true){
+      setFlag(false);
+     }
   }
-
 
 
 
@@ -229,21 +230,33 @@ function AppBar() {
                   >
                     <NavDropdown.Item
                       as={Link}
-                      to="/exam_paper/class_3"
+                      to="/exam_paper/class_7"
                       className="menu-item"
                       onClick={handleExam}
                     >
-                      Class 3
+                      Class 7
                     </NavDropdown.Item>
 
                     <NavDropdown.Item
                       as={Link}
-                      to="/exam_paper/class_4"
+                      to="/exam_paper/class_8"
                       className="menu-item"
                       onClick={handleExam}
                     >
-                      Class 4
+                      Class 8
                     </NavDropdown.Item>
+
+
+                    
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/exam_paper/class_9"
+                      className="menu-item"
+                      onClick={handleExam}
+                    >
+                      Class 9
+                    </NavDropdown.Item>
+
                   </NavDropdown>
                 </div>
 

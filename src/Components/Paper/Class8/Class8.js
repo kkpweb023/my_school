@@ -3,7 +3,7 @@ import Content from './Content/Content';
 
 
 
-const Class3 = () => {
+const Class8 = () => {
   return (
     <div>
       <Content />
@@ -14,4 +14,4 @@ const Class3 = () => {
   )
 }
 
-export default Class3;
+export default Class8;

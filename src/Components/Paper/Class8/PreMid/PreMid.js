@@ -1,12 +1,13 @@
 import React from "react";
 import "./PreMid.css";
-import Multiple from "./Questions/Multiple";
-import TrueFalse from "./Questions/TrueFalse";
-import Fill from "./Questions/Fill";
-import Match from "./Questions/Match";
-import FullForm from "./Questions/FullForm";
-import Qusestion from "./Questions/Qusestion";
+
 import jsPDF from "jspdf";
+import Qusestion from "../Questions/Qusestion";
+import FullForm from "../Questions/FullForm";
+import Match from "../Questions/Match";
+import Fill from "../Questions/Fill";
+import TrueFalse from "../Questions/TrueFalse";
+import Multiple from "../Questions/Multiple";
 
 const PreMid = () => {
   const handlePaper = async () => {
@@ -14,7 +15,7 @@ const PreMid = () => {
     const pdf = new jsPDF("p", "pt", "a4");
     const data = document.querySelector("#pdf");
     pdf.html(data).then(() => {
-      pdf.save("Class3.pdf");
+      pdf.save("Class8.pdf");
     });
 
   };

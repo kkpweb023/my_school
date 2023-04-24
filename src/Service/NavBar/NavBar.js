@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./NavBar.css";
 import { Nav, NavDropdown , Navbar } from "react-bootstrap";
 import { Link,NavLink } from 'react-router-dom';
 import AppBar from './AppBar';
 import logo from '../../Images/my_logo.png';
 import { useNavigate } from 'react-router-dom';
+import { MyContext } from "../../App.js";
+
 
 const NavBar = () => {
 
-
+  const {setFlag,flag} = useContext(MyContext);
 
   const navigate = useNavigate();
   const auth = localStorage.getItem('user');
@@ -16,7 +18,15 @@ const NavBar = () => {
   function UserLogout() {
     localStorage.clear();
     navigate('/signUp');
-  }
+  
+    }
+
+    function handleFlag(){
+     if(flag===true){
+      setFlag(false);
+     }
+            
+    }
 
 
 
@@ -44,6 +54,7 @@ const NavBar = () => {
             id="collasible-nav-dropdown"
             className="menu width-2"
             menuVariant="dark"
+            
             
           >
 
@@ -141,22 +152,32 @@ const NavBar = () => {
             className="menu width-2"
             menuVariant="dark"
           >
+
             <NavDropdown.Item
               as={Link}
-              to="/exam_paper/class_3"
+              to="exam_paper/class_7"
               className="menu-item"
-              onClick={()=>!auth? alert("Please login first.....") : ""}
+              onClick={handleFlag}
             >
-              Class 3
+              Class 7
+            </NavDropdown.Item>
+            
+            <NavDropdown.Item
+              as={Link}
+              to="exam_paper/class_8"
+              className="menu-item"
+              onClick={handleFlag}
+            >
+              Class 8
             </NavDropdown.Item>
 
             <NavDropdown.Item
               as={Link}
-              to="/exam_paper/class_4"
+              to="exam_paper/class_9"
               className="menu-item"
-              onClick={()=>!auth? alert("Please login first.....") : ""}
+              onClick={handleFlag}
             >
-              Class 4
+              Class 9
             </NavDropdown.Item>
 
           </NavDropdown>
