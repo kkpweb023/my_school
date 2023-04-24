@@ -3,11 +3,12 @@
     width: 59%;
     position: relative;
     left:10%;
-    top: 10px;
+    top: 50px;
     padding:20px;
     font-size: 14px;
     background-color: bisque;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
 }
 
 .accordion-button{

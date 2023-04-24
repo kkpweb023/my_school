@@ -18,7 +18,7 @@
 
   .app_setting:hover{
 
-        color: rgb(226, 107, 107);
+        color: rgb(92, 10, 78);
   }
 
 
@@ -44,7 +44,8 @@
 
 
 .offcan_nav{
-    background-color:rgb(28, 71, 209);
+   /* background-color:rgb(28, 71, 209);*/
+   background-color:rgb(183, 196, 12);
     font-weight: 600;
     font-size:22px;    
     border-radius:8px;
@@ -55,7 +56,8 @@
 
 .icon_back{
 
-    background-color:rgb(12, 60, 204);
+   /* background-color:rgb(12, 60, 204);*/
+     background-color:rgb(157, 167, 20);
      width:22%;
      height:100%;
      position: absolute;
@@ -79,14 +81,14 @@
 
 .dropdown-toggle:hover{
 
-   color: rgb(216, 173, 120);
+   color: rgb(92, 10, 78);
 }
 
 
 
 .app_menu:hover >  span{
 
-   color: rgb(216, 173, 120);
+    color: rgb(92, 10, 78);
 }
 
 
