@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import "./NavBar.css";
 import { Nav, NavDropdown , Navbar } from "react-bootstrap";
 import { Link,NavLink } from 'react-router-dom';
@@ -10,7 +10,7 @@ import { MyContext } from "../../App.js";
 
 const NavBar = () => {
 
-  const {setFlag,flag} = useContext(MyContext);
+  const {setFlag} = useContext(MyContext);
 
   const navigate = useNavigate();
   const auth = localStorage.getItem('user');
@@ -21,12 +21,12 @@ const NavBar = () => {
   
     }
 
-    function handleFlag(){
-     if(flag===true){
+    function handleFlag(){  
       setFlag(false);
-     }
-            
     }
+    useEffect(()=>{
+       setFlag(true)
+    },[setFlag])
 
 
 

@@ -20,6 +20,9 @@ const Content9 = () => {
 
 
 
+
+
+
   return (
     <>
     <div className='Content_div'>
@@ -37,7 +40,7 @@ const Content9 = () => {
         <Link className='pre_mid' to={"/exam_paper/class_9/annual_C9"} onClick={handlePaper}>Annual</Link>
   
     </div>
-
+   
     { flag ? <Outlet />:<img src={DocPic} alt='Show document pic' className='doc_img'/>}
 
      </>

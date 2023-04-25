@@ -1,5 +1,6 @@
 import React from "react";
-import "./ClassTest1.css";
+//import "./ClassTest1.css";
+import '../../../Common/Css/MyCss.css'
 import '../../Class8/Questions/Multiple.css'
 import jsPDF from "jspdf";
 
@@ -19,11 +20,12 @@ const ClassTest1 = () => {
       </button>
 
       <div className="ClassTest" id={"pdf"}>
-        <h5 className="h5" style={{ fontSize: "25px" }}>
+        <h5 className="paper_name_heading" style={{ fontSize: "25px" }}>
           Class Test-1 Paper (2023-2024)
         </h5>
 
         <div className="intro" style={{ fontSize: "14px" }}>
+
           <div className="marks_class_intro">
             <div className="mm" style={{ fontWeight: "bold" }}>
               M.M. 10

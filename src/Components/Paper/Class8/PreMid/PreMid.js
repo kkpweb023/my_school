@@ -1,6 +1,6 @@
 import React from "react";
 import "./PreMid.css";
-
+import '../../../Common/Css/MyCss.css';
 import jsPDF from "jspdf";
 import Qusestion from "../Questions/Qusestion";
 import FullForm from "../Questions/FullForm";
@@ -30,9 +30,10 @@ const PreMid = () => {
       </button>
 
       <div className="PreMid" id={"pdf"}>
-        <h5 className="h5">Pre-Mid Term Paper (2023-2024)</h5>
+        <h5 className="paper_name_heading">Pre-Mid Term Paper (2023-2024)</h5>
 
         <div className="intro" style={{fontSize:"14px"}}>
+
           <div className="marks_class_intro">
             <div className="mm" style={{ fontWeight: "bold" }}>
               M.M. 20

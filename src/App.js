@@ -18,7 +18,7 @@ import Setting from "./Service/Setting/Setting";
 
 
 import Class8 from "./Components/Paper/Class8/Class8";
-//import PreMid from "./Components/Paper/Class8/PreMid/PreMid";
+import PreMid from "./Components/Paper/Class8/PreMid/PreMid";
 
 import Class9 from "./Components/Paper/Class9/Class9";
 import ClassTest1 from "./Components/Paper/Class9/ClassTest1/ClassTest1";
@@ -31,7 +31,6 @@ export const MyContext = createContext();
 function App() {
 
   const [flag,setFlag] = useState(false);
-
   const [showMob, setShowMob] = useState(false);
 
   //dark mode
@@ -74,7 +73,7 @@ function App() {
               
                 <Route
                   path="pre_mid_C8"
-                  element={/*<PreMid />*/ <h1>Page not active...</h1>}
+                  element={<PreMid /> /*<h1>Page not active...</h1>*/}
                 />
                 <Route
                   path="half_yearly_C8"
