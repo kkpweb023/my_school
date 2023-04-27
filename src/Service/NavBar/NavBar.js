@@ -107,13 +107,6 @@ const NavBar = () => {
             className="menu width-2"
             menuVariant="dark"
           >
-            <NavDropdown.Item
-              as={Link}
-              to="/topic_notes/class_6"
-              className="menu-item"
-            >
-              Class 6
-            </NavDropdown.Item>
 
             <NavDropdown.Item
               as={Link}

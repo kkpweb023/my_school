@@ -59,7 +59,7 @@ function App() {
       <div className={`App ${clicked ? "App_mode" : ""}`}>
         <NavBar />
 
-        <Routes basename="/notes">
+        <Routes basename="/my_school">
           <Route path="/" element={<Home />} />
           <Route path="/course/class_9" element={<Course />} />
           <Route path="/course/class_9/chapter_1" element={<Chapter1 />} />
