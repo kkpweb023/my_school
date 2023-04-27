@@ -22,6 +22,8 @@ import PreMid from "./Components/Paper/Class8/PreMid/PreMid";
 
 import Class9 from "./Components/Paper/Class9/Class9";
 import ClassTest1 from "./Components/Paper/Class9/ClassTest1/ClassTest1";
+import Notes from "./Components/Notes/Notes";
+import NotesChap2 from "./Components/Notes/Class9/Chapter2/NotesChap2";
 
 
 export const MyContext = createContext();
@@ -61,9 +63,26 @@ function App() {
 
         <Routes basename="/my_school">
           <Route path="/" element={<Home />} />
+
+{/* ===================================== Course  ====================================================*/}
+
           <Route path="/course/class_9" element={<Course />} />
           <Route path="/course/class_9/chapter_1" element={<Chapter1 />} />
           <Route path="/course/class_9/chapter_2" element={<Chapter2 />} />
+
+
+{/* ========================================== Topic Notes ===========================================*/} 
+
+ {/* ===================== Class9 Notes =================*/}
+
+
+    <Route path="/topic_notes/class_9" element={<Notes />} />
+    <Route path="/topic_notes/class_9/chapter_2" element={<NotesChap2 />} />
+
+
+          
+
+{/* ====================================== Exam_Paper ===========================================*/}      
 
             {/* ===================== Class8 Paper =================*/}
 
@@ -123,6 +142,10 @@ function App() {
               </Route>
 
             </Route>
+
+
+
+{/* ========================================== Student_Details ================================================*/}  
 
             <Route element={<Auth />}>
 

@@ -1,0 +1,114 @@
+.notes_table {
+  width: 80%;
+  margin: 5% 0px 0px 8%;
+  text-align: center;
+  background-color: rgb(233, 245, 242);
+}
+
+.notes_table > thead > tr {
+  background-color: black;
+  color: white;
+}
+
+.notes_table> thead > tr > th {
+  padding: 10px;
+}
+
+.notes_table > tbody > tr > td {
+  padding: 8px;
+}
+
+@media (max-width: 800px) {
+  .notes_table {
+    width: 92%;
+    margin: 5% 0px 0px 4%;
+  }
+}
+
+
+/* ============================   Chapter -2 ============================*/
+
+
+.Chapter2_div{
+  border:5px double black;
+  width: 59%;
+  position: relative;
+  left:10%;
+  top: 50px;
+  padding:20px;
+  font-size: 14px;
+  background-color: rgb(111, 161, 161);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  
+}
+
+.accordion-button{
+
+  font-weight: 900;
+  color: cadetblue;
+
+}
+
+.Chapter2_div > .head_1{
+     text-align: center;
+     color: rgb(8, 87, 87);
+}
+
+.Ch2_head_ques{
+    font-weight:bold;
+    font-size: 18px;
+}
+
+.ch2_mul_question{
+   margin-left: 30px;
+   margin-top: 8px;
+}
+
+.ch2_mul_question > :first-child{
+
+    font-size: 16px;
+}
+
+.ch2_mul_question > :nth-child(2){
+  font-size: 16px;
+  margin-left: 18px;
+  
+}
+
+.ch2_mul_question > .ch1_option>span{
+     display: flex;  
+}
+
+.ch2_mul_question > .ch1_option>span>.b{
+  margin-left:30%;
+}
+.ch2_mul_question > .ch1_option>span>.d{
+  margin-left:24.3%;
+  
+}
+
+
+@media (max-width:600px) {
+
+  .Chapter2_div{
+      width:96%;
+      position: relative;
+      left:2%;
+      top: 10px;
+  }
+  
+  .ch1_mul_question > :nth-child(2){
+      font-size: 18px;        
+  }
+}
+
+
+
+
+/* ============================ Input Device ============================*/
+
+
+.inputDevice >ul>li{
+
+    font-size:15px;
+}

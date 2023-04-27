@@ -5,9 +5,6 @@ import { Link } from "react-router-dom";
 import Pdf from '../../../Images/pdf.PNG';
 
 
-
-
-
 const Class_9 = () => {
 
 
