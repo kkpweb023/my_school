@@ -57,15 +57,6 @@ const NavBar = () => {
             
             
           >
-
-            <NavDropdown.Item
-              as={Link}
-              to="/course/class_6"
-              className="menu-item"
-            >
-              Class 6
-            </NavDropdown.Item>
-
             <NavDropdown.Item
               as={Link}
               to="/course/class_7"
@@ -176,10 +167,6 @@ const NavBar = () => {
           </NavDropdown>
 
 
-
-
-
-
           <NavDropdown
             title="Students Details"
             id="collasible-nav-dropdown"
@@ -225,15 +212,23 @@ const NavBar = () => {
 
                 </Form> */}
 
-                {
-                   auth ?     
+
+  
+                  <NavDropdown title="Dashboard" id="collasible-nav-dropdown" className="menu account" menuVariant="dark">
+
+                  <NavDropdown.Item as={NavLink} to='/dashboard/profile' className='menu-item'>Profile</NavDropdown.Item>
+
+                  <NavDropdown.Item as={NavLink} to='/dashboard/setting' className='menu-item'>Setting</NavDropdown.Item>
+
+                  <NavDropdown.Divider />
+
+                  {
+                   auth ? 
                     <NavDropdown.Item as={NavLink} to='/login' className='menu-item' onClick={UserLogout}>Logout</NavDropdown.Item>
                   :
-                    <Nav>
-                        <Nav.Link as={NavLink} to='/login'  className="menu">Login</Nav.Link>
-                    </Nav>  
-                }
-                    
+                  <NavDropdown.Item as={NavLink} to='/login' className='menu-item'>Login</NavDropdown.Item>
+                  }
+                  </NavDropdown>
 
                 </Nav>
                 <AppBar />

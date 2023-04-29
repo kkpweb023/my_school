@@ -6,12 +6,10 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import { MyContext } from "../../App.js";
 import { useNavigate } from "react-router-dom";
 import "./AppBar.css";
-import logo from '../../Images/my_logo.png';
-
+import logo from "../../Images/my_logo.png";
 
 function AppBar() {
-
-  const {setFlag,flag} = useContext(MyContext);
+  const { setFlag, flag } = useContext(MyContext);
   const { showMob, setShowMob } = useContext(MyContext);
 
   const navigate = useNavigate();
@@ -25,12 +23,10 @@ function AppBar() {
 
   function handleExam() {
     setShowMob(false);
-    if(flag===true){
+    if (flag === true) {
       setFlag(false);
-     }
+    }
   }
-
-
 
   return (
     <>
@@ -40,29 +36,39 @@ function AppBar() {
         style={{ fontSize: "14px", backgroundColor: "rgb(212, 223, 65)" }}
       >
         <Container fluid>
-          
           <Navbar.Toggle
             aria-controls={`offcanvasNavbar-expand-sm`}
             bg="dark"
             variant="dark"
             onClick={() => setShowMob(true)}
           />
-          
+
           <Navbar.Offcanvas
             id={`offcanvasNavbar-expand-sm`}
             aria-labelledby={`offcanvasNavbarLabel-expand-sm`}
             className="offcan_nav"
             show={showMob}
             onHide={() => setShowMob(false)}
-          ><div className="icon_back"></div>
+          >
+            <div className="icon_back"></div>
             <Offcanvas.Header closeButton>
               <Offcanvas.Title
                 id={`offcanvasNavbarLabel-expand-sm`}
                 className="me-5 ms-3 fs-1 fw-bold"
                 style={{ color: "white" }}
               >
-                <img src={logo} alt="" style={{width:"40px",marginLeft:"-20px",position:"absolute"}}/>
-                <span style={{marginLeft:"60px",fontSize:"25px"}}>My-School</span>
+                <img
+                  src={logo}
+                  alt=""
+                  style={{
+                    width: "40px",
+                    marginLeft: "-20px",
+                    position: "absolute",
+                  }}
+                />
+                <span style={{ marginLeft: "60px", fontSize: "25px" }}>
+                  My-School
+                </span>
               </Offcanvas.Title>
             </Offcanvas.Header>
 
@@ -72,14 +78,8 @@ function AppBar() {
               className="off_body"
               onTouchMove={() => setShowMob(false)}
             >
-
-           
-
-              
               <Nav className="justify-content-end flex-grow-1 pe-3">
-                
-
-              { /*====================== Home ======================== */   }
+                {/*====================== Home ======================== */}
 
                 <Nav.Link
                   as={NavLink}
@@ -91,8 +91,7 @@ function AppBar() {
                   <span> Home</span>
                 </Nav.Link>
 
-                { /*====================== Course ======================== */   }
-
+                {/*====================== Course ======================== */}
 
                 <div className="app_menu">
                   <i
@@ -163,12 +162,13 @@ function AppBar() {
                   </NavDropdown>
                 </div>
 
-
-
-                { /*====================== Notes ======================== */   }
+                {/*====================== Notes ======================== */}
 
                 <div className="app_menu">
-                  <i className="bi bi-pencil-fill"  style={{ margin: "10px 0px 0px 0px" }}></i>
+                  <i
+                    className="bi bi-pencil-fill"
+                    style={{ margin: "10px 0px 0px 0px" }}
+                  ></i>
 
                   <NavDropdown
                     title="Notes"
@@ -177,7 +177,6 @@ function AppBar() {
                     menuVariant="light"
                     style={{ margin: "0px 0px 0px 50px" }}
                   >
-                    
                     <NavDropdown.Item
                       as={Link}
                       to="/topic_notes/class_7"
@@ -207,11 +206,13 @@ function AppBar() {
                   </NavDropdown>
                 </div>
 
-
-                { /*====================== Examination ======================== */   }
+                {/*====================== Examination ======================== */}
 
                 <div className="app_menu">
-                  <i className="bi bi-envelope-paper-fill"  style={{ margin: "10px 0px 0px 0px" }}></i>
+                  <i
+                    className="bi bi-envelope-paper-fill"
+                    style={{ margin: "10px 0px 0px 0px" }}
+                  ></i>
 
                   <NavDropdown
                     title="Examination Paper"
@@ -238,8 +239,6 @@ function AppBar() {
                       Class 8
                     </NavDropdown.Item>
 
-
-                    
                     <NavDropdown.Item
                       as={Link}
                       to="/exam_paper/class_9"
@@ -248,18 +247,16 @@ function AppBar() {
                     >
                       Class 9
                     </NavDropdown.Item>
-
                   </NavDropdown>
                 </div>
 
-
-
-                { /*====================== Students ======================== */   }
-
-
+                {/*====================== Students ======================== */}
 
                 <div className="app_menu">
-                  <i className="bi bi-person-lines-fill"  style={{ margin: "10px 0px 0px 0px" }}></i>
+                  <i
+                    className="bi bi-person-lines-fill"
+                    style={{ margin: "10px 0px 0px 0px" }}
+                  ></i>
 
                   <NavDropdown
                     title="Students Details"
@@ -300,36 +297,60 @@ function AppBar() {
                                 <Button variant="success" className="me-5 text-white rounded-0 shadow-none" style={{ fontSize: "15px", padding: "2px 15px 2px 15px" }}>Search</Button>
                             </Form>*/}
 
-              {auth ? (
-                <Nav>
-                  <Nav.Link
+              <div className="app_menu">
+                <i
+                  className="bi bi-gear-fill"
+                  style={{ margin: "10px 0px 0px 0px" }}
+                ></i>
+
+                <NavDropdown
+                  title="Dashboard"
+                  id="collasible-nav-dropdown"
+                  menuVariant="light"
+                  className="drop-menu width-2"
+                  style={{ margin: "0px 0px 0px 40px" }}
+                >
+                  <NavDropdown.Item
                     as={NavLink}
-                    to="/login"
-                    className="app_menu"
-                    onClick={UserLogout}
-                  >
-                    <i className="bi bi-box-arrow-in-right" style={{ margin: "10px 0px 0px -2px" }}></i>
-                    <span style={{ margin: "10px 0px 0px 50px" }}>Logout</span>
-                  </Nav.Link>
-                </Nav>
-              ) : (
-                <Nav>
-                  <Nav.Link
-                    as={NavLink}
-                    to="/login"
-                    className="app_menu"
+                    to="/dashboard/profile"
+                    className="menu-item"
                     onClick={() => setShowMob(false)}
                   >
-                    <i className="bi bi-person-fill-lock"  style={{ margin: "10px 0px 0px 0px" }}></i> <span  style={{ margin: "10px 0px 0px 50px" }}>Login</span>
-                  </Nav.Link>
-                </Nav>
-              )}
-               <Nav>
-                  <Nav.Link as={NavLink} className="app_setting" to="/setting" onClick={() => setShowMob(false)}>
-                     <i className="bi bi-gear-fill" style={{ margin: "10px 0px 0px 0px" }}></i>
-                     <span  style={{ margin: "10px 0px 0px 30px" }}>Setting</span>
-                  </Nav.Link>
-               </Nav>
+                    Profile
+                  </NavDropdown.Item>
+
+                  <NavDropdown.Item
+                    as={NavLink}
+                    to="/dashboard/setting"
+                    className="menu-item"
+                    onClick={() => setShowMob(false)}
+                  >
+                    Setting
+                  </NavDropdown.Item>
+
+                  <NavDropdown.Divider />
+
+                  {auth ? (
+                    <NavDropdown.Item
+                      as={NavLink}
+                      to="/login"
+                      className="menu-item"
+                      onClick={UserLogout}
+                    >
+                      Logout
+                    </NavDropdown.Item>
+                  ) : (
+                    <NavDropdown.Item
+                      as={NavLink}
+                      to="/login"
+                      className="menu-item"
+                      onClick={() => setShowMob(false)}
+                    >
+                      Login
+                    </NavDropdown.Item>
+                  )}
+                </NavDropdown>
+              </div>
               
             </Offcanvas.Body>
           </Navbar.Offcanvas>

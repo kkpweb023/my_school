@@ -10,7 +10,7 @@ const StudentsMarks = () => {
     const [data, setData] = useState([]);
 
     const getStudents = () => {
-      axios.get('http://localhost:2000/list-students')
+      axios.get('http://localhost:4000/list-students')
         .then((result) => {
           setData(result.data)
         })
@@ -25,7 +25,7 @@ const StudentsMarks = () => {
 
     const handleRecord = (del) =>{
  
-        axios.delete(`http://localhost:2000/delete-Student/${del}`)
+        axios.delete(`http://localhost:4000/delete-Student/${del}`)
         .then((result) => {
           if (result.data) {
             getStudents();

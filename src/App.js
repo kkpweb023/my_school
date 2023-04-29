@@ -24,6 +24,8 @@ import Class9 from "./Components/Paper/Class9/Class9";
 import ClassTest1 from "./Components/Paper/Class9/ClassTest1/ClassTest1";
 import Notes from "./Components/Notes/Notes";
 import NotesChap2 from "./Components/Notes/Class9/Chapter2/NotesChap2";
+import StdProfile from "./Components/DashBoard/StdProfile";
+
 
 
 export const MyContext = createContext();
@@ -145,7 +147,7 @@ function App() {
 
 
 
-{/* ========================================== Student_Details ================================================*/}  
+{/* ========================================== Student_Details========================================*/}  
 
             <Route element={<Auth />}>
 
@@ -159,10 +161,15 @@ function App() {
              </Route>
 
 
+          <Route path="/dashboard/profile" element={<StdProfile />} />
+          
+          <Route path="/dashboard/setting" element={<Setting />} />
+
+
           <Route path="/signUp" element={<Admin /> /*<SignUp />*/} />
           <Route path="/login" element={<Login />} />
 
-          <Route path="/setting" element={<Setting />} />
+      
 
           <Route
             path="/*"

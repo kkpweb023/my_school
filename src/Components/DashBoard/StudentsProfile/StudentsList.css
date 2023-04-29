@@ -1,0 +1,96 @@
+.student-list-div{
+    margin-top:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:15px;
+}
+
+.student-list-div > .table {
+    width:656px;
+    border-collapse: collapse;
+  }
+
+  .student-list-div > .table th {
+    background-color: rgb(63, 164, 204);
+    color: white;
+    border: none;
+    font-weight: 600;
+  }
+  
+  .student-list-div > .table th,
+  .student-list-div > .table td {
+    padding: 12px 15px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid rgb(63, 164, 204);
+       
+  }
+
+  .edit{
+       cursor: pointer;
+       margin-right:8px;
+  }
+
+  .delete{
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .view{
+    cursor: pointer;
+    margin-left:15px;
+  }
+
+
+  @media (max-width:900px) {
+
+    .student-list-div{
+      margin-left:48px;
+    }
+
+    .student-list-div > .table {
+      width:550px;
+    }
+  
+  }
+
+
+  
+  @media (max-width:650px) {
+
+
+    .student-list-div > .table{
+      margin-left:-32px;
+      width:100%;
+    }
+  
+    .student-list-div > .table > .thead {
+      display: none;
+    }
+  
+    .student-list-div > .table tr {
+      display: block;
+      
+    }
+  
+    .student-list-div > .table td {
+      text-align: right;
+      position: relative;
+      display: block;
+      height:40px;
+      font-weight:500;
+    }
+  
+    .student-list-div > .table td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      top:0px;
+      width: 30%;
+      text-align: center;
+      background-color: black;
+      color: white;
+      padding:8px;
+    }
+    
+  }
+  

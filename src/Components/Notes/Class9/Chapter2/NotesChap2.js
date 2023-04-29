@@ -7,7 +7,7 @@ const NotesChap2 = () => {
   return (
     <div>
       <div className="Chapter2_div">
-        <h4 className="head_1">Chapter-2 Types of Hardware</h4>
+        <h4 className="head_1" style={{color:"wheat"}}>Chapter-2 Types of Hardware</h4>
 
         <div className="Ch2_choice">
           <Accordion>
