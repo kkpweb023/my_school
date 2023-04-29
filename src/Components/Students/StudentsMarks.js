@@ -4,13 +4,15 @@ import logo from '../../Images/my_logo.png';
 import axios from 'axios';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
+let port = `` || `http://localhost:4000`;
+
 
 const StudentsMarks = () => {
 
     const [data, setData] = useState([]);
 
     const getStudents = () => {
-      axios.get('http://localhost:4000/list-students')
+      axios.get(`${port}/list-students`)
         .then((result) => {
           setData(result.data)
         })

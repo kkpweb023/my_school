@@ -3,6 +3,8 @@ import "./StudentsInfo.css";
 import axios from 'axios';
 import { MyContext } from "../StdProfile";
 
+let port = `` || `http://localhost:4000`;
+
 const StudentsInfo = () => {
 
   const { getInfo,info,setInfo } = useContext(MyContext);
@@ -21,7 +23,7 @@ function handleAdd() {
     return false;  
   }
 
-    axios.post('http://localhost:4000/attendence', {
+    axios.post(`${port}/attendence`, {
       name: info.name,
       subject: info.subject,
       remarks: info.remarks

@@ -8,6 +8,7 @@ import { Audio } from 'react-loader-spinner';
 import axios from 'axios';
 import { MyContext } from '../StdProfile';
 
+let port = `` || `http://localhost:4000`;
 
 
 const StudentsList = () => {
@@ -17,7 +18,7 @@ const StudentsList = () => {
 
   function handleDelete(del) {
 
-    axios.delete(`http://localhost:4000/delete-info/${del}`)
+    axios.delete(`${port}/delete-info/${del}`)
       .then((result) => {
         if (result.data.deletedCount) {
           getInfo()

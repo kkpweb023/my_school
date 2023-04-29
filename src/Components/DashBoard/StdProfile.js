@@ -6,6 +6,8 @@ import axios from 'axios';
 
 export const MyContext = createContext();
 
+let port = `` || `http://localhost:4000`;
+
 const StdProfile = () => {
 
 
@@ -21,7 +23,7 @@ const StdProfile = () => {
 
   const getInfo = () => {
     setLoading(true);
-    axios.get('http://localhost:4000/info_list')
+    axios.get(`${port}/info_list`)
       .then((result) => {
         setData(result.data)
         setLoading(false);

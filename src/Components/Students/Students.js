@@ -3,6 +3,8 @@ import './Students.css';
 import logo from '../../Images/my_logo.png';
 import axios from 'axios';
 
+let port = `` || `http://localhost:4000`;
+
 const Students = () => {
 
     const [stud_data, set_stud_Data] = useState({
@@ -101,7 +103,7 @@ const Students = () => {
         event.preventDefault();
 
 
-        axios.post('http://localhost:4000/add_Students', {
+        axios.post(`${port}/add_Students`, {
             name: stud_data.name,
             roll_No: stud_data.roll_No,
             father_name: stud_data.father_name,
