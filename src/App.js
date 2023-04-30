@@ -13,7 +13,7 @@ import StudentsMarks from "./Components/Students/StudentsMarks";
 import Login from "./Components/Admin/Login/Login";
 import SignUp from './Components/Admin/SignUp/SignUp';
 import Auth from "./Components/Admin/Auth/Auth";
-import Admin from "./Components/Admin/ForAdmin/Admin";
+//import Admin from "./Components/Admin/ForAdmin/Admin";
 import Setting from "./Service/Setting/Setting";
 
 

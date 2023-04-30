@@ -1,8 +1,8 @@
 {
   "name": "frontend",
-  "homepage": "https://kkpweb023.github.io/my_school/",
+  "homepage": "https://kkpweb023.github.io/my_school",
   "version": "0.1.0",
-  "private": true,
+  "private": "true",
   "proxy":"https://thankful-twill-colt.cyclic.app",
   "dependencies": {
     "@emotion/react": "^11.10.6",
