@@ -41,11 +41,11 @@
 
 
 
-      .form-btn{
+       .my_form-btn{
 
            position: relative;
            margin-top: 30px;
-           left:130px;
+           left:140px;
            width: 50%;
       }
 
@@ -62,7 +62,7 @@
    }
 
    
-   .form-btn{
+    .my_form-btn{
     left:100px;
   }
 
@@ -78,13 +78,13 @@
     margin-top:10px;
    }
 
-   .form-control{
+   .form-input-div > .form-control{
 
       width:300px;
       margin-left:-25px;
    }
 
-   .form-btn{
+   .my_form-btn{
     left:50px;
     width: 40%;
   }
@@ -101,12 +101,12 @@
     margin-left:10px;
    }
 
-   .form-control{
+   .form-input-div > .form-control{
       width:240px;
       margin-left:-45px;
    }
 
-   .form-btn{
+  .my_form-btn{
     left:30px;
     width: 40%;
   }

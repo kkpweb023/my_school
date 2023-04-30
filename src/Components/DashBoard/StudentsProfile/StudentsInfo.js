@@ -81,7 +81,7 @@ function handleAdd() {
               {error && !info.remarks &&  <small className='error'>Enter valid name</small>}
             </div>
 
-            <button className="btn btn-primary form-btn" onClick={handleAdd}>
+            <button className="btn btn-primary my_form-btn" onClick={handleAdd}>
               Submit
             </button>
             
