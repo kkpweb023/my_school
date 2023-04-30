@@ -4,7 +4,7 @@ import logo from '../../Images/my_logo.png';
 import axios from 'axios';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
-let port = `` || `http://localhost:4000`;
+let port = `https://thankful-twill-colt.cyclic.app` || `http://localhost:4000`;
 
 
 const StudentsMarks = () => {
@@ -27,7 +27,7 @@ const StudentsMarks = () => {
 
     const handleRecord = (del) =>{
  
-        axios.delete(`http://localhost:4000/delete-Student/${del}`)
+        axios.delete(`${port}/delete-Student/${del}`)
         .then((result) => {
           if (result.data) {
             getStudents();

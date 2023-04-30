@@ -6,7 +6,7 @@ import axios from 'axios';
 
 export const MyContext = createContext();
 
-let port = `` || `http://localhost:4000`;
+let port = `https://thankful-twill-colt.cyclic.app` || `http://localhost:4000`;
 
 const StdProfile = () => {
 
