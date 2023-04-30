@@ -17,6 +17,7 @@
     "docx": "^8.0.2",
     "file-saver": "^2.0.5",
     "gh-pages": "^5.0.0",
+    "http-proxy-middleware": "^2.0.6",
     "jspdf": "^2.5.1",
     "material-colors": "^1.2.6",
     "react": "^18.2.0",

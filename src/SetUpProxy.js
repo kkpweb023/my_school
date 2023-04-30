@@ -3,9 +3,10 @@ const { createProxyMiddleware } = require('http-proxy-middleware');
 module.exports = app => {
     
     app.use(
-            createProxyMiddleware('/endpoint',
+            createProxyMiddleware('/http://localhost:3000',
                         { 
-                            target: 'https://thankful-twill-colt.cyclic.app', 
+                            target: 'https://unusual-elk-flannel-nightgown.cyclic.app', 
+                            secure:  false,
                             changeOrigin: true 
                         })
     )      
