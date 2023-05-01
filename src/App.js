@@ -152,13 +152,14 @@ function App() {
             <Route element={<Auth />}>
 
               <Route path="/add_Student_Details/class_5" element={<Students />} />
-              <Route
+             <Route
                 path="/add_Student_Marks/class_5"
                 element={<StudentsMarks />}
-              />
+              />   
               <Route path="/logout" element={"Logout"} />
 
              </Route>
+         
 
 
           <Route path="/dashboard/profile" element={<StdProfile />} />
