@@ -11,9 +11,9 @@ import Chapter2 from "./Components/Course/Class9/Chapter2/Chapter2";
 import Students from "./Components/Students/Students";
 import StudentsMarks from "./Components/Students/StudentsMarks";
 import Login from "./Components/Admin/Login/Login";
-import SignUp from './Components/Admin/SignUp/SignUp';
+//import SignUp from './Components/Admin/SignUp/SignUp';
 import Auth from "./Components/Admin/Auth/Auth";
-//import Admin from "./Components/Admin/ForAdmin/Admin";
+import Admin from "./Components/Admin/ForAdmin/Admin";
 import Setting from "./Service/Setting/Setting";
 
 
@@ -166,7 +166,7 @@ function App() {
           <Route path="/dashboard/setting" element={<Setting />} />
 
 
-          <Route path="/signUp" element={/*<Admin />*/ <SignUp />} />
+          <Route path="/signUp" element={<Admin /> /*<SignUp />*/} />
           <Route path="/login" element={<Login />} />
 
       
