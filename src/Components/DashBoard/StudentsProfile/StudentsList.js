@@ -5,17 +5,19 @@ import EditIcon from '@mui/icons-material/Edit';
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import { Audio } from 'react-loader-spinner';
-import axios from 'axios';
+//import axios from 'axios';
 import { MyContext } from '../StdProfile';
 
-let port = `https://unusual-elk-flannel-nightgown.cyclic.app` || `http://localhost:4000`;
+//let port = `https://unusual-elk-flannel-nightgown.cyclic.app` || `http://localhost:4000`;
 
 
 const StudentsList = () => {
 
-  const { data, isLoading, getInfo } = useContext(MyContext);
+  const { data, isLoading, /*getInfo*/ } = useContext(MyContext);
 
 
+
+  /*
   function handleDelete(del) {
 
     axios.delete(`${port}/delete-info/${del}`)
@@ -29,7 +31,7 @@ const StudentsList = () => {
       })
       .catch((error) => console.log('deletion failed'));
   }
-
+*/
   
 
   return (
@@ -75,8 +77,8 @@ const StudentsList = () => {
                   <td data-label="Action">
                     <EditIcon color='primary' className='edit' />
 
-                    <DeleteForeverIcon color='error' className='delete' onClick={() => handleDelete(value._id)}
-                    />
+                    <DeleteForeverIcon color='error' className='delete' /*onClick={() => handleDelete(value._id)}
+                    *//>
                     <VisibilityIcon fontSize="small" color="primary" className='view'></VisibilityIcon>
                   </td>
                 </tr>
