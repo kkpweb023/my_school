@@ -160,8 +160,6 @@ function App() {
 
              </Route>
          
-
-
           <Route path="/dashboard/profile" element={<StdProfile />} />
           
           <Route path="/dashboard/setting" element={<Setting />} />
