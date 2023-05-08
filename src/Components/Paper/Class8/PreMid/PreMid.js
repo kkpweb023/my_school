@@ -1,5 +1,4 @@
 import React from "react";
-import "./PreMid.css";
 import '../../../Common/Css/MyCss.css';
 import jsPDF from "jspdf";
 import Qusestion from "../Questions/Qusestion";

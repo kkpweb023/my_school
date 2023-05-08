@@ -8,7 +8,7 @@ const Multiple2 = () => {
           <div>1. Name the printer whose print head contains banks of pins moving at high speed against      inked ribbon and paper?</div>
 
           <div className="ch1_option">
-                <span>a. Dot-Matrix Printer</span>
+                <span>a. Dot-Matrix Printer ✅</span>
                 <span>b. Chain Printer</span>
                 <span>c. Daisy Wheel Printer</span>
                 <span>d. None of these</span>
@@ -24,7 +24,7 @@ const Multiple2 = () => {
             <span>a. Registers</span>
             <span>b. Hard Disk</span>
             <span>c. Flash Memory</span>
-            <span>d. Cache Memory</span>
+            <span>d. Cache Memory ✅</span>
           </div>
         </div>
 
@@ -35,15 +35,15 @@ const Multiple2 = () => {
           <div className="ch1_option">
             <span>a. Typing  Keys</span>
             <span>b. Numeric Keys</span>
-            <span>c. Navigation Keys</span>
+            <span>c. Navigation Keys ✅</span>
             <span>d. Function Keys</span>
           </div>
         </div>
 
         <div className="ch1_mul_question">
-          <div>4. Which of the following is the best monitor??</div>
+          <div>4. Which of the following is not the correct type of a Monitor?</div>
           <div className="ch1_option">
-            <span>a. CRT Monitor</span>
+            <span>a. Laser Monitor ✅</span>
             <span>b. LCD Monitor</span>
             <span>c. LED Monitor</span>
             <span>d. TFT Monitor</span>

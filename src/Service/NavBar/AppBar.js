@@ -106,24 +106,7 @@ function AppBar() {
                     menuVariant="light"
                     style={{ margin: "10px 0px 0px 50px" }}
                   >
-                    <NavDropdown.Item
-                      as={Link}
-                      to="/course/class_5"
-                      className="menu-item"
-                      onClick={() => setShowMob(false)}
-                    >
-                      Class 5
-                    </NavDropdown.Item>
-
-                    <NavDropdown.Item
-                      as={Link}
-                      to="/course/class_6"
-                      className="menu-item"
-                      onClick={() => setShowMob(false)}
-                    >
-                      Class 6
-                    </NavDropdown.Item>
-
+                    
                     <NavDropdown.Item
                       as={Link}
                       to="/course/class_7"
