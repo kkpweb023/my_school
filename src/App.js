@@ -164,11 +164,9 @@ function App() {
           
           <Route path="/dashboard/setting" element={<Setting />} />
 
-
           <Route path="/signUp" element={<Admin /> /*<SignUp />*/} />
           <Route path="/login" element={<Login />} />
 
-      
 
           <Route
             path="/*"
