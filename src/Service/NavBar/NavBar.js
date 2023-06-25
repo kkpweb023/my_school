@@ -55,16 +55,8 @@ const NavBar = () => {
             id="collasible-nav-dropdown"
             className="menu width-2"
             menuVariant="dark"
-            
-            
+              
           >
-            <NavDropdown.Item
-              as={Link}
-              to="/course/class_7"
-              className="menu-item"
-            >
-              Class 7
-            </NavDropdown.Item>
 
             <NavDropdown.Item
               as={Link}
@@ -102,14 +94,6 @@ const NavBar = () => {
 
             <NavDropdown.Item
               as={Link}
-              to="/topic_notes/class_7"
-              className="menu-item"
-            >
-              Class 7
-            </NavDropdown.Item>
-
-            <NavDropdown.Item
-              as={Link}
               to="/topic_notes/class_8"
               className="menu-item"
             >
@@ -137,15 +121,6 @@ const NavBar = () => {
             className="menu width-2"
             menuVariant="dark"
           >
-
-            <NavDropdown.Item
-              as={Link}
-              to="exam_paper/class_7"
-              className="menu-item"
-              onClick={handleFlag}
-            >
-              Class 7
-            </NavDropdown.Item>
             
             <NavDropdown.Item
               as={Link}

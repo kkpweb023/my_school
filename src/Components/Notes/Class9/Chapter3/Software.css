@@ -1,0 +1,62 @@
+.software{
+
+     font-size: 18px;
+}
+
+@media (max-width:1050px) {
+
+     .soft_image{
+
+          width:380px;
+          height:480px;
+          margin-left: -100px;
+   }
+
+     
+     
+}
+
+@media (max-width:900px) {
+
+     .soft_image{
+
+          width:350px;
+          height:380px;
+          margin-left: -50px;
+   }   
+}
+
+@media (max-width:800px) {
+
+     .soft_image{
+
+          width:290px;
+          height:340px;
+          margin-left: -50px;
+   }   
+}
+
+@media (max-width:410px) {
+
+     .soft_table > tbody >tr{
+
+          
+     }
+}
+
+
+@media (max-width:380px) {
+
+     .soft_image{
+
+          width:200px;
+          height:280px;
+          margin-left: -50px;
+     } 
+     
+
+}
+
+
+
+

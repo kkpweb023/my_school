@@ -34,7 +34,7 @@ const Notes9 = () => {
             <td>Chapter 3</td>
             <td>
               <Link to={"/topic_notes/class_9/chapter_3"} style={{textDecorationLine:"none"}}>
-                Not Active
+                <img src={Enter} alt='enter_img' style={{width:"40px"}}/>
               </Link>
             </td>
           </tr>

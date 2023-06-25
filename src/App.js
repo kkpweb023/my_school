@@ -25,6 +25,7 @@ import ClassTest1 from "./Components/Paper/Class9/ClassTest1/ClassTest1";
 import Notes from "./Components/Notes/Notes";
 import NotesChap2 from "./Components/Notes/Class9/Chapter2/NotesChap2";
 import StdProfile from "./Components/DashBoard/StdProfile";
+import NotesChap3 from "./Components/Notes/Class9/Chapter3/NotesChap3";
 
 
 
@@ -80,6 +81,7 @@ function App() {
 
     <Route path="/topic_notes/class_9" element={<Notes />} />
     <Route path="/topic_notes/class_9/chapter_2" element={<NotesChap2 />} />
+    <Route path="/topic_notes/class_9/chapter_3" element={<NotesChap3 />} />
 
 
           

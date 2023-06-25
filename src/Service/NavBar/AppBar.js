@@ -109,15 +109,6 @@ function AppBar() {
                     
                     <NavDropdown.Item
                       as={Link}
-                      to="/course/class_7"
-                      className="menu-item"
-                      onClick={() => setShowMob(false)}
-                    >
-                      Class 7
-                    </NavDropdown.Item>
-
-                    <NavDropdown.Item
-                      as={Link}
                       to="/course/class_8"
                       className="menu-item"
                       onClick={() => setShowMob(false)}
@@ -160,15 +151,7 @@ function AppBar() {
                     menuVariant="light"
                     style={{ margin: "0px 0px 0px 50px" }}
                   >
-                    <NavDropdown.Item
-                      as={Link}
-                      to="/topic_notes/class_7"
-                      className="menu-item"
-                      onClick={() => setShowMob(false)}
-                    >
-                      Class 7
-                    </NavDropdown.Item>
-
+           
                     <NavDropdown.Item
                       as={Link}
                       to="topic_notes/class_8"
@@ -204,15 +187,7 @@ function AppBar() {
                     menuVariant="light"
                     style={{ margin: "0px 0px 0px 50px" }}
                   >
-                    <NavDropdown.Item
-                      as={Link}
-                      to="/exam_paper/class_7"
-                      className="menu-item"
-                      onClick={handleExam}
-                    >
-                      Class 7
-                    </NavDropdown.Item>
-
+      
                     <NavDropdown.Item
                       as={Link}
                       to="/exam_paper/class_8"
