@@ -31,7 +31,7 @@ const Notes9 = () => {
 
           <tr>
             <td>2</td>
-            <td>Chapter </td>
+            <td>Chapter 3</td>
             <td>
               <Link to={"/topic_notes/class_9/chapter_3"} style={{textDecorationLine:"none"}}>
                 <img src={Enter} alt='enter_img' style={{width:"40px"}}/>
