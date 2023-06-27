@@ -16,13 +16,7 @@ const LangTraslator = () => {
    
     
                 <strong>Types of language translators</strong>
-                  <ul>
-                      <li>It directly interface with hardware.</li>
-                      <li>It can also used for managing computer resources.</li>
-                      <li>It can control the internal computer operations.</li>
-                  </ul>
-         
-                <strong>Features of System Software</strong>
+        
                   <ol type='i'>
                       <li>Assembler</li>
                       <li>Compiler</li>

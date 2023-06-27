@@ -5,6 +5,9 @@ import SystemSoftware from "./SystemSoftware";
 import LangTraslator from "./LangTraslator";
 import UtilitySoft from "./UtilitySoft";
 import DeviceDriver from "./DeviceDriver";
+import AppSoft from "./AppSoft";
+import SpeciSoft from "./SpeciSoft";
+import CustomSoft from "./CustomSoft";
 
 
 const NotesChap3 = () => {
@@ -57,11 +60,30 @@ const NotesChap3 = () => {
 
             <Accordion.Item eventKey="5">
               <Accordion.Header>Application Software</Accordion.Header>
-              <Accordion.Body>
-               
-
+              <Accordion.Body>         
+                  <AppSoft />
               </Accordion.Body>
             </Accordion.Item>
+
+
+            <Accordion.Item eventKey="6">
+              <Accordion.Header>Specific Purpose Application software</Accordion.Header>
+              <Accordion.Body>         
+                  <SpeciSoft />
+              </Accordion.Body>
+            </Accordion.Item>
+
+
+            <Accordion.Item eventKey="7">
+              <Accordion.Header>Customized Application / Bespoke software</Accordion.Header>
+              <Accordion.Body>         
+                  <CustomSoft />
+              </Accordion.Body>
+            </Accordion.Item>
+
+
+
+            
 
 
           </Accordion>
