@@ -67,11 +67,11 @@ function App() {
         <Routes basename="/my_school">
           <Route path="/" element={<Home />} />
 
-{/* ===================================== Course  ====================================================*/}
+{/* ===================================== Practice Questions  ====================================================*/}
 
-          <Route path="/course/class_9" element={<Course />} />
-          <Route path="/course/class_9/chapter_1" element={<Chapter1 />} />
-          <Route path="/course/class_9/chapter_2" element={<Chapter2 />} />
+          <Route path="/practiceQuestions/class_9" element={<Course />} />
+          <Route path="/practiceQuestions/class_9/chapter_1" element={<Chapter1 />} />
+          <Route path="/practiceQuestions/class_9/chapter_2" element={<Chapter2 />} />
 
 
 {/* ========================================== Topic Notes ===========================================*/} 

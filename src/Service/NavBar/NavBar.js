@@ -50,40 +50,6 @@ const NavBar = () => {
 
             <Nav.Link as={NavLink} to='/' className="menu">Home</Nav.Link>
 
-          <NavDropdown
-            title="Course"
-            id="collasible-nav-dropdown"
-            className="menu width-2"
-            menuVariant="dark"
-              
-          >
-
-            <NavDropdown.Item
-              as={Link}
-              to="/course/class_8"
-              className="menu-item"
-            >
-              Class 8
-            </NavDropdown.Item>
-
-            <NavDropdown.Item
-              as={Link}
-              to="/course/class_9"
-              className="menu-item"
-            >
-              Class 9
-            </NavDropdown.Item>
-
-            <NavDropdown.Item
-              as={Link}
-              to="/course/class_10"
-            >
-              Class 10
-            </NavDropdown.Item>
-          </NavDropdown>
-
-
-
 
           <NavDropdown
             title="Notes"
@@ -111,6 +77,38 @@ const NavBar = () => {
 
           </NavDropdown>
 
+
+          <NavDropdown
+            title="Practice questions"
+            id="collasible-nav-dropdown"
+            className="menu width-2"
+            menuVariant="dark"
+              
+          >
+
+            <NavDropdown.Item
+              as={Link}
+              to="/practiceQuestions/class_8"
+              className="menu-item"
+            >
+              Class 8
+            </NavDropdown.Item>
+
+            <NavDropdown.Item
+              as={Link}
+              to="/practiceQuestions/class_9"
+              className="menu-item"
+            >
+              Class 9
+            </NavDropdown.Item>
+
+            <NavDropdown.Item
+              as={Link}
+              to="/practiceQuestions/class_10"
+            >
+              Class 10
+            </NavDropdown.Item>
+          </NavDropdown>
 
 
 

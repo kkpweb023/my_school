@@ -91,57 +91,13 @@ function AppBar() {
                   <span> Home</span>
                 </Nav.Link>
 
-                {/*====================== Course ======================== */}
-
-                <div className="app_menu">
-                  <i
-                    className="bi bi-book-half"
-                    style={{ margin: "20px 0px 0px 0px" }}
-                  ></i>
-
-                  <NavDropdown
-                    title="Course"
-                    id="collasible-nav-dropdown"
-                    className="drop-menu width-2 mb-2"
-                    menuVariant="light"
-                    style={{ margin: "10px 0px 0px 50px" }}
-                  >
-                    
-                    <NavDropdown.Item
-                      as={Link}
-                      to="/course/class_8"
-                      className="menu-item"
-                      onClick={() => setShowMob(false)}
-                    >
-                      Class 8
-                    </NavDropdown.Item>
-
-                    <NavDropdown.Item
-                      as={Link}
-                      to="/course/class_9"
-                      className="menu-item"
-                      onClick={() => setShowMob(false)}
-                    >
-                      Class 9
-                    </NavDropdown.Item>
-
-                    <NavDropdown.Item
-                      as={Link}
-                      to="/course/class_10"
-                      className="menu-item"
-                      onClick={() => setShowMob(false)}
-                    >
-                      Class 10
-                    </NavDropdown.Item>
-                  </NavDropdown>
-                </div>
 
                 {/*====================== Notes ======================== */}
 
                 <div className="app_menu">
                   <i
                     className="bi bi-pencil-fill"
-                    style={{ margin: "10px 0px 0px 0px" }}
+                    style={{ margin: "20px 0px 0px 0px" }}
                   ></i>
 
                   <NavDropdown
@@ -149,7 +105,7 @@ function AppBar() {
                     id="collasible-nav-dropdown"
                     className="drop-menu width-2 mb-2"
                     menuVariant="light"
-                    style={{ margin: "0px 0px 0px 50px" }}
+                    style={{ margin: "10px 0px 0px 50px" }}
                   >
            
                     <NavDropdown.Item
@@ -171,6 +127,54 @@ function AppBar() {
                     </NavDropdown.Item>
                   </NavDropdown>
                 </div>
+
+
+
+                {/*====================== Practice Questions ======================== */}
+
+                <div className="app_menu">
+                  <i
+                    className="bi bi-book-half"
+                    style={{ margin: "10px 0px 0px 0px" }}
+                  ></i>
+
+                  <NavDropdown
+                    title="Practice Questions"
+                    id="collasible-nav-dropdown"
+                    className="drop-menu width-2 mb-2"
+                    menuVariant="light"
+                    style={{ margin: "0px 0px 0px 50px" }}
+                  >
+                    
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/practiceQuestions/class_8"
+                      className="menu-item"
+                      onClick={() => setShowMob(false)}
+                    >
+                      Class 8
+                    </NavDropdown.Item>
+
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/practiceQuestions/class_9"
+                      className="menu-item"
+                      onClick={() => setShowMob(false)}
+                    >
+                      Class 9
+                    </NavDropdown.Item>
+
+                    <NavDropdown.Item
+                      as={Link}
+                      to="/practiceQuestions/class_10"
+                      className="menu-item"
+                      onClick={() => setShowMob(false)}
+                    >
+                      Class 10
+                    </NavDropdown.Item>
+                  </NavDropdown>
+                </div>
+
 
                 {/*====================== Examination ======================== */}
 
