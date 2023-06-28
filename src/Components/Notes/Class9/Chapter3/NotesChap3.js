@@ -4,10 +4,10 @@ import Software from "./Software";
 import SystemSoftware from "./SystemSoftware";
 import LangTraslator from "./LangTraslator";
 import UtilitySoft from "./UtilitySoft";
-import DeviceDriver from "./DeviceDriver";
-import AppSoft from "./AppSoft";
-import SpeciSoft from "./SpeciSoft";
-import CustomSoft from "./CustomSoft";
+//import DeviceDriver from "./DeviceDriver";
+//import AppSoft from "./AppSoft";
+//import SpeciSoft from "./SpeciSoft";
+//import CustomSoft from "./CustomSoft";
 
 
 const NotesChap3 = () => {
@@ -44,7 +44,7 @@ const NotesChap3 = () => {
             <Accordion.Item eventKey="3">
               <Accordion.Header>Utility Software</Accordion.Header>
               <Accordion.Body>
-                  <UtilitySoft />
+                <UtilitySoft />
               </Accordion.Body>
             </Accordion.Item>
 
@@ -53,7 +53,7 @@ const NotesChap3 = () => {
             <Accordion.Item eventKey="4">
               <Accordion.Header>Device Driver</Accordion.Header>
               <Accordion.Body>
-                <DeviceDriver />
+               {/* <DeviceDriver /> */}
               </Accordion.Body>
             </Accordion.Item>
 
@@ -61,7 +61,7 @@ const NotesChap3 = () => {
             <Accordion.Item eventKey="5">
               <Accordion.Header>Application Software</Accordion.Header>
               <Accordion.Body>         
-                  <AppSoft />
+                {/*  <AppSoft /> */}
               </Accordion.Body>
             </Accordion.Item>
 
@@ -69,7 +69,7 @@ const NotesChap3 = () => {
             <Accordion.Item eventKey="6">
               <Accordion.Header>Specific Purpose Application software</Accordion.Header>
               <Accordion.Body>         
-                  <SpeciSoft />
+                {/* <SpeciSoft /> */}
               </Accordion.Body>
             </Accordion.Item>
 
@@ -77,7 +77,7 @@ const NotesChap3 = () => {
             <Accordion.Item eventKey="7">
               <Accordion.Header>Customized Application / Bespoke software</Accordion.Header>
               <Accordion.Body>         
-                  <CustomSoft />
+                {/* <CustomSoft /> */}
               </Accordion.Body>
             </Accordion.Item>
 
