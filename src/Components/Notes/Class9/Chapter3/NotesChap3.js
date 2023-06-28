@@ -53,31 +53,35 @@ const NotesChap3 = () => {
             <Accordion.Item eventKey="4">
               <Accordion.Header>Device Driver</Accordion.Header>
               <Accordion.Body>
-               {/* <DeviceDriver /> */}
+               <div style={{fontSize:"30px",color:"darkred",fontWeight:"bold"}}> Uploading soon.... </div>
+              {/* <DeviceDriver /> */}
               </Accordion.Body>
             </Accordion.Item>
 
 
             <Accordion.Item eventKey="5">
               <Accordion.Header>Application Software</Accordion.Header>
-              <Accordion.Body>         
-                {/*  <AppSoft /> */}
+              <Accordion.Body>
+                <div style={{fontSize:"30px",color:"darkred",fontWeight:"bold"}}> Uploading soon.... </div>         
+                 {/*<AppSoft />*/}
               </Accordion.Body>
             </Accordion.Item>
 
 
             <Accordion.Item eventKey="6">
               <Accordion.Header>Specific Purpose Application software</Accordion.Header>
-              <Accordion.Body>         
-                {/* <SpeciSoft /> */}
+              <Accordion.Body>
+                <div style={{fontSize:"30px",color:"darkred",fontWeight:"bold"}}> Uploading soon.... </div>         
+                {/* <SpeciSoft />*/}
               </Accordion.Body>
             </Accordion.Item>
 
 
             <Accordion.Item eventKey="7">
               <Accordion.Header>Customized Application / Bespoke software</Accordion.Header>
-              <Accordion.Body>         
-                {/* <CustomSoft /> */}
+              <Accordion.Body> 
+                <div style={{fontSize:"30px",color:"darkred",fontWeight:"bold"}}> Uploading soon.... </div>        
+                {/* <CustomSoft />*/}
               </Accordion.Body>
             </Accordion.Item>
 
