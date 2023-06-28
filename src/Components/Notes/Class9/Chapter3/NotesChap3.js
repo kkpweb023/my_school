@@ -54,6 +54,7 @@ const NotesChap3 = () => {
               <Accordion.Header>Device Driver</Accordion.Header>
               <Accordion.Body>
                <div style={{fontSize:"30px",color:"darkred",fontWeight:"bold"}}> Uploading soon.... </div>
+               <img src="https://res.cloudinary.com/dp2exjpd5/image/upload/v1687968638/Software/soon_xk5kos.gif" alt="Coming soon..." />
               {/* <DeviceDriver /> */}
               </Accordion.Body>
             </Accordion.Item>
@@ -62,7 +63,8 @@ const NotesChap3 = () => {
             <Accordion.Item eventKey="5">
               <Accordion.Header>Application Software</Accordion.Header>
               <Accordion.Body>
-                <div style={{fontSize:"30px",color:"darkred",fontWeight:"bold"}}> Uploading soon.... </div>         
+                <div style={{fontSize:"30px",color:"darkred",fontWeight:"bold"}}> Uploading soon....Working on it.... </div> 
+                <img src="https://res.cloudinary.com/dp2exjpd5/image/upload/v1687968638/Software/soon_xk5kos.gif" alt="Coming soon..." />        
                  {/*<AppSoft />*/}
               </Accordion.Body>
             </Accordion.Item>
@@ -71,7 +73,8 @@ const NotesChap3 = () => {
             <Accordion.Item eventKey="6">
               <Accordion.Header>Specific Purpose Application software</Accordion.Header>
               <Accordion.Body>
-                <div style={{fontSize:"30px",color:"darkred",fontWeight:"bold"}}> Uploading soon.... </div>         
+                <div style={{fontSize:"30px",color:"darkred",fontWeight:"bold"}}> Uploading soon.... </div> 
+                <img src="https://res.cloudinary.com/dp2exjpd5/image/upload/v1687968638/Software/soon_xk5kos.gif" alt="Coming soon..." />        
                 {/* <SpeciSoft />*/}
               </Accordion.Body>
             </Accordion.Item>
@@ -80,7 +83,8 @@ const NotesChap3 = () => {
             <Accordion.Item eventKey="7">
               <Accordion.Header>Customized Application / Bespoke software</Accordion.Header>
               <Accordion.Body> 
-                <div style={{fontSize:"30px",color:"darkred",fontWeight:"bold"}}> Uploading soon.... </div>        
+                <div style={{fontSize:"30px",color:"darkred",fontWeight:"bold"}}> Uploading soon.... </div>   
+                <img src="https://res.cloudinary.com/dp2exjpd5/image/upload/v1687968638/Software/soon_xk5kos.gif" alt="Coming soon..." />     
                 {/* <CustomSoft />*/}
               </Accordion.Body>
             </Accordion.Item>
