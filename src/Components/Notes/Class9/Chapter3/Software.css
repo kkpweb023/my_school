@@ -38,8 +38,15 @@
 
 @media (max-width:410px) {
 
-     .soft_table > tbody >tr{
+     .soft_table{
+                  
+          margin-left: -20px;
+          
+     }
 
+     .soft_table> tbody>tr>:nth-child(2){
+                  
+          padding:0px;
           
      }
 }

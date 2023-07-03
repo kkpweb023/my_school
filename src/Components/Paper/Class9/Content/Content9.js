@@ -31,7 +31,7 @@ const Content9 = () => {
 
         <Link className='classTest_2' to={"/exam_paper/class_9/class_test2_C9"} onClick={()=>setFlag(true)}>Class Test-2</Link>
 
-        <Link className='pre_mid' to={"/exam_paper/class_9/pre_mid_C9"} onClick={handlePaper}>Pre-Mid Paper</Link>
+        <Link className='pre_mid' to={"/exam_paper/class_9/pre_mid_C9"} onClick={()=>setFlag(true)}>Pre-Mid Paper</Link>
     
         <Link className='pre_mid' to={"/exam_paper/class_9/half_yearly_C9"} onClick={handlePaper}>Half-Yearly</Link>
   

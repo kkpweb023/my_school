@@ -26,6 +26,7 @@ import Notes from "./Components/Notes/Notes";
 import NotesChap2 from "./Components/Notes/Class9/Chapter2/NotesChap2";
 import StdProfile from "./Components/DashBoard/StdProfile";
 import NotesChap3 from "./Components/Notes/Class9/Chapter3/NotesChap3";
+import ClassTest2 from "./Components/Paper/Class9/ClassTest2/ClassTest2";
 
 
 
@@ -122,14 +123,17 @@ function App() {
                 />
                 <Route
                   path="class_test2_C9"
-                  element={/*<ClassTest_2  />*/ <h1>Uploading Soon...</h1>}
+                  element={<ClassTest2  /> /*<h1>Uploading Soon...</h1>*/}
                 />
 
-              <Route element={<Auth />}>
                 <Route
                   path="pre_mid_C9"
                   element={/*<PreMid />*/ <h1>Uploading Soon...</h1>}
                 />
+                
+
+              <Route element={<Auth />}>
+
                 <Route
                   path="half_yearly_C9"
                   element={/*<PreMid />*/ <h1>Uploading Soon...</h1>}
