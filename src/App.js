@@ -27,6 +27,7 @@ import NotesChap2 from "./Components/Notes/Class9/Chapter2/NotesChap2";
 import StdProfile from "./Components/DashBoard/StdProfile";
 import NotesChap3 from "./Components/Notes/Class9/Chapter3/NotesChap3";
 import ClassTest2 from "./Components/Paper/Class9/ClassTest2/ClassTest2";
+import Chapter3 from "./Components/Course/Class9/Chapter3/Chapter3";
 
 
 
@@ -73,6 +74,7 @@ function App() {
           <Route path="/practiceQuestions/class_9" element={<Course />} />
           <Route path="/practiceQuestions/class_9/chapter_1" element={<Chapter1 />} />
           <Route path="/practiceQuestions/class_9/chapter_2" element={<Chapter2 />} />
+          <Route path="/practiceQuestions/class_9/chapter_3" element={<Chapter3 />} />
 
 
 {/* ========================================== Topic Notes ===========================================*/} 

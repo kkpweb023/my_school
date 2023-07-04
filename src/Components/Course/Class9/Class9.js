@@ -1,6 +1,5 @@
 import React from "react";
 import "./Class9.css";
-import UploadNote from "./UploadNote";
 import { Link } from "react-router-dom";
 import Pdf from '../../../Images/pdf.PNG';
 
@@ -10,7 +9,6 @@ const Class_9 = () => {
 
   return (
     <>
-      <UploadNote />
       <table className="class_table">
         <thead>
           <tr>
@@ -44,7 +42,7 @@ const Class_9 = () => {
             <td>Chapter 3</td>
             <td>
               <Link to={"/practiceQuestions/class_9/chapter_3"} style={{textDecorationLine:"none"}}>
-                Not Active
+                  <img src={Pdf} alt="chapter_3" style={{height:"35px"}}/>
               </Link>
             </td>
           </tr>
