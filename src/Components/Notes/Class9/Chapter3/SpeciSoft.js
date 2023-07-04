@@ -4,7 +4,7 @@ const SpeciSoft = () => {
   return (
     <>
     <div className="software">
-      <h5>4. Specific Purpose Application software</h5>
+      <h5>2. Specific Purpose Application software</h5>
 
       <ul className="software">
         <li>
