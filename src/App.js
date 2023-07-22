@@ -28,6 +28,7 @@ import StdProfile from "./Components/DashBoard/StdProfile";
 import NotesChap3 from "./Components/Notes/Class9/Chapter3/NotesChap3";
 import ClassTest2 from "./Components/Paper/Class9/ClassTest2/ClassTest2";
 import Chapter3 from "./Components/Course/Class9/Chapter3/Chapter3";
+import ClassTest3 from "./Components/Paper/Class9/ClassTest3/ClassTest3";
 
 
 
@@ -129,12 +130,18 @@ function App() {
                 />
 
                 <Route
+                  path="class_test3_C9"
+                  element={<ClassTest3 /> /*<h1>Uploading Soon...</h1>*/}
+                />
+
+
+              
+              <Route element={<Auth />}>
+
+                <Route
                   path="pre_mid_C9"
                   element={/*<PreMid />*/ <h1>Uploading Soon...</h1>}
                 />
-                
-
-              <Route element={<Auth />}>
 
                 <Route
                   path="half_yearly_C9"

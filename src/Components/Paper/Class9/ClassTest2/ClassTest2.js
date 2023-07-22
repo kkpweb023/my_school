@@ -104,14 +104,15 @@ const ClassTest2 = () => {
 
           <div className="long_div">
             <div className="long_question">
-              <div>a.</div>
+              <div>a. Why we use blu-ray disc rather than CD and DVD,Give any two reason?</div>
               <div>
-                b.
+                b. What is the booting process and which memory is responsible for booting process?
               </div>
               <div>
-                c. 
+                c. Write any two difference between RAM and ROM? 
               </div>
-              <div>d. </div>
+              <div>d. Write any two difference between processor memory and external memory?</div>
+              <div>e. Draw and mention all the internal and external parts of CPU with help of processor,primary and secondary memory using flow charts?</div>
             </div>
           </div>
         </div>
