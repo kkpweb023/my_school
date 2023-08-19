@@ -18,7 +18,7 @@ import Setting from "./Service/Setting/Setting";
 
 
 import Class8 from "./Components/Paper/Class8/Class8";
-import PreMid from "./Components/Paper/Class8/PreMid/PreMid";
+
 
 import Class9 from "./Components/Paper/Class9/Class9";
 import ClassTest1 from "./Components/Paper/Class9/ClassTest1/ClassTest1";
@@ -29,6 +29,7 @@ import NotesChap3 from "./Components/Notes/Class9/Chapter3/NotesChap3";
 import ClassTest2 from "./Components/Paper/Class9/ClassTest2/ClassTest2";
 import Chapter3 from "./Components/Course/Class9/Chapter3/Chapter3";
 import ClassTest3 from "./Components/Paper/Class9/ClassTest3/ClassTest3";
+import PreMid from "./Components/Paper/Class9/PreMid/PreMid";
 
 
 
@@ -134,14 +135,14 @@ function App() {
                   element={<ClassTest3 /> /*<h1>Uploading Soon...</h1>*/}
                 />
 
+                <Route
+                  path="pre_mid_C9"
+                  element={<PreMid /> /*<h1>Uploading Soon...</h1>*/}
+                />
+
 
               
               <Route element={<Auth />}>
-
-                <Route
-                  path="pre_mid_C9"
-                  element={/*<PreMid />*/ <h1>Uploading Soon...</h1>}
-                />
 
                 <Route
                   path="half_yearly_C9"
