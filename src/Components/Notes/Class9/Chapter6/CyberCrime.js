@@ -5,7 +5,7 @@ const CyberCrime = () => {
 
     <>
 
-        <div className="software">
+        <div className="software" style={{textAlign:"justify"}}>
 
             <h5>CyberCrime</h5>
 
@@ -18,7 +18,8 @@ const CyberCrime = () => {
 
             <h5>Cyber Bulling</h5>
 
-                <li>Harasing,demeaning,embarrasing,defaming or intimidating someome using modern technologies like internet,cell phones,social networks etc is called cyber bullying.</li>
+                <li>Harasing,demeaning,<br/>embarrasing or intimidating someome using modern technologies like internet,cell phones,social networks 
+                etc is called cyber bullying.</li>
 
 
             <h5>Cyber stalking</h5>

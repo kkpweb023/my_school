@@ -4,7 +4,7 @@ import React from "react";
 const CyberSafety = () => {
   return (
     <>
-      <div className="software">
+      <div className="software" style={{textAlign:"justify"}}>
         
         <h5>Cyber Safety</h5>
 
