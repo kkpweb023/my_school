@@ -88,10 +88,8 @@ function App() {
     <Route path="/topic_notes/class_9" element={<Notes />} />
     <Route path="/topic_notes/class_9/chapter_2" element={<NotesChap2 />} />
     <Route path="/topic_notes/class_9/chapter_3" element={<NotesChap3 />} />
-
-    <Route element={<Auth />}>
-      <Route path="/topic_notes/class_9/chapter_6" element={<NotesChap6 />} />
-    </Route>
+    <Route path="/topic_notes/class_9/chapter_6" element={<NotesChap6 />} />
+   
     
 
 
