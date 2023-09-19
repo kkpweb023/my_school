@@ -66,7 +66,7 @@ const NetworkMedia = () => {
                 </ul>
 
 
-                <h6>b.Coaxial cable</h6>
+                <h6>c. Optical Fibre cable</h6>
 
                     <li>It is uses electric signals or light to transmit data using total internal reflection.</li>
 
@@ -81,7 +81,7 @@ const NetworkMedia = () => {
 
 
 
-            <h5>1. Unguided Media (Wireless Connection)</h5>
+            <h5>2. Unguided Media (Wireless Connection)</h5>
 
                     <li>Data is transmitted from one place to another place through electromagentic waves without using physical conductor.</li>
 
