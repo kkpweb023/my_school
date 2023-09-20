@@ -114,7 +114,8 @@ const CloudComputing = () => {
             <ul>
                 <li>It is the use of internet based social media programs to make connections with friends,family, classmates,customers and clients.</li>
                 <li>It includes:- blogs,microblogs,forums,social networks,wikis chat-room etc.</li>
-                <li>eg: Instagram,Facebook,LinkdIn,Myspace,Twitter,Sanpchat,Youtube,Wordpress etc.</li>
+                <li>eg:Instagram,Facebook,<br/>LinkdIn,Myspace,
+                Twitter,<br/>Sanpchat,Youtube,Wordpress etc.</li>
             </ul>
 
 
