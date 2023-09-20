@@ -37,16 +37,7 @@ const NotesChap5 = () => {
               </Accordion.Body>
             </Accordion.Item>
 
-    
-            <Accordion.Item eventKey="3">
-              <Accordion.Header>Multimedia</Accordion.Header>
-              <Accordion.Body>
-                          
-              </Accordion.Body>
-            </Accordion.Item>
-
-
-        
+            
           </Accordion>
         </div>
       </div>
