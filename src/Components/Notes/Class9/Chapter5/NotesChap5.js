@@ -3,6 +3,7 @@ import Accordion from "react-bootstrap/Accordion";
 import Marquee from "react-fast-marquee";
 import NetworkMedia from "./NetworkMedia";
 import NetworkTypes from "./NetworkTypes";
+import CloudComputing from "./CloudComputing";
 
 
 const NotesChap5 = () => {
@@ -30,9 +31,9 @@ const NotesChap5 = () => {
 
 
             <Accordion.Item eventKey="2">
-              <Accordion.Header>Internet & Cloud Computing</Accordion.Header>
+              <Accordion.Header>Cloud Computing</Accordion.Header>
               <Accordion.Body>
-                          
+                   <CloudComputing />       
               </Accordion.Body>
             </Accordion.Item>
 
