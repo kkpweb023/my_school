@@ -32,6 +32,7 @@ import ClassTest3 from "./Components/Paper/Class9/ClassTest3/ClassTest3";
 import PreMid from "./Components/Paper/Class9/PreMid/PreMid";
 import NotesChap6 from "./Components/Notes/Class9/Chapter6/NotesChap6";
 import NotesChap5 from "./Components/Notes/Class9/Chapter5/NotesChap5";
+import NotesChap7 from "./Components/Notes/Class9/Chapter7/NotesChap7";
 
 
 
@@ -91,6 +92,7 @@ function App() {
     <Route path="/topic_notes/class_9/chapter_3" element={<NotesChap3 />} />
     <Route path="/topic_notes/class_9/chapter_5" element={<NotesChap5  />} />
     <Route path="/topic_notes/class_9/chapter_6" element={<NotesChap6 />} />
+    <Route path="/topic_notes/class_9/chapter_7" element={<NotesChap7 />} />
    
     
 
