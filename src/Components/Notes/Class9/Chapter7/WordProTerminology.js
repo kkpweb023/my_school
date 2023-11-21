@@ -89,6 +89,10 @@ const WordProTerminology = () => {
 
                 <li>Placement of the text going past the right margin to the next line without pressing enter key is called word wrap.</li><br/>
                
+
+{/*----------------------- Indentation --------------- */}
+
+
             <h4>5. <u>Indentation</u></h4>
 
                 <li>The distance between the text boundaries and page margin is called indent and the process of provinding it is called indentation.</li><br/>
@@ -121,17 +125,137 @@ const WordProTerminology = () => {
              
                     <li>It is used for glossory terms,resumes,bulleted etc.</li><br/>   
 
-            <h4>   <u>Paragraph Indentation</u></h4>
+            <h4><u>Paragraph Indentation</u></h4>
 
                     <li>It affects the spacing within paragraphs,helping to organize and structure the text.</li>
                     <li>It is used to offset selected paragraphs from other text in the document.</li><br/>
 
 
+{/*----------------------- Text Alignment --------------- */}
+
+            <h4>6. <u>Text Alignment</u></h4>
+
+                    <li>Text alignment refer to the text layout within a paragraph with respect to document margin.</li>
+
+
+
+                    <h5><u>Types of text alignment</u></h5>
+
+                        <h6 style={{marginLeft:"20px"}}>There are two types of text alignment:</h6> 
+
+                        <ol type="1">
+                            <li>Horizontal Text Alignment.</li>
+                            <li>Vertical Text Alignment.</li>
+                        </ol>
+
+                        <h6>(1) <u>Horizontal Text Alignment</u></h6>
+
+                        <li>Align the text horizontally</li>
+
+                        
+                        <h6 style={{marginLeft:"20px"}}>Four ways to align the text horizontally:-</h6> 
+
+                        <ol type="i">
+                            <li>Left alignment</li>
+                            <li>Right alignment</li>
+                            <li>Centered alignment</li>
+                            <li>Justified alignment</li>
+                        </ol>
+
+
+
+
+                        <h6>(2) <u>Vertical Text Alignment</u></h6>
+
+                        <li>Align the text vertically</li>
+
+
+                        <h6 style={{marginLeft:"20px"}}>Four ways to align the text vertically:-</h6> 
+
+                        <ol type="i">
+                            <li>Top alignment</li>
+                            <li>Bottom alignment</li>
+                            <li>Middle alignment</li>
+                            <li>Justified alignment</li>
+                        </ol>
+
+
+
+                    <h5><u>How boundaries of text get affected</u></h5>
+
+                    <h6 style={{marginLeft:"20px"}}>Two ways boundaries of text get affected:</h6> 
+
+                    <ol type="i">
+                        <li>the left and right margins.</li>
+                        <li>the indentation for the paragraphs.</li>
+                    </ol>
+
+
+
+                    <h5><u>Left Justification is preferable over Justified alignment</u></h5>
+
+                    <ul>
+                        <li>Left Justification is preferable when readability is top priority.</li>
+                        <li>It ensures consistent starting points for each line,facilitating quicker scanning.</li>
+                    </ul>
+
+
+            <h4>7. <u>Line Spacing</u></h4>
+
+                    <li>The total height of a line of text,including extra spacing.</li>
+                    <li>It measured in lines or points.</li><br/>
+                        
+
+                    <h6 style={{marginLeft:"20px"}}>Three standard types of line spacing:</h6> 
+
+                    <ul>
+                        <li>Single line spacing(1 line)  -  12 points.</li>
+                        <li>One-and-one half line spacing(1.5 lines)  -  18 points.</li>
+                        <li>Double line spacing(2 lines)  - 24 points.</li>
+                    </ul>
+
+            {/*----------------------- Page Orientation --------------- */}
+
+
+            <h4>8.  <u>Page Orientation</u></h4>
+
+                        <li>It is refer to the text is to be printed length-wise or width-wise.</li>
+
+    
+                        <h6 style={{marginLeft:"20px"}}>Two types of page-orientation:</h6> 
+
+                        <ol type='i'>
+                            <li><b>Portrait-</b>When the text printed or typed lenght-wise.</li>
+                            <li><b>Landscape-</b>When the text printed or typed width-wise.</li> 
+                        </ol>
+
+
+        {/*----------------------- Headers amd footer --------------- */}
+
+
+
+                <h4>9. <u>Headers and Footers</u></h4>
+
+
+                    <h6 style={{marginLeft:"20px"}}>Headers:</h6> 
+
+                    <ul>
+                        <li>It is the text or graphics printed in the top margin area of a document.</li>
+                        <li>It includes graphics,text and date</li> 
+                    </ul>
+
+
+                    <h6 style={{marginLeft:"20px"}}>Footers:</h6> 
+
+                    <ul>
+                        <li>It is the text or graphics printed in the bottom margin area of a document.</li>
+                        <li>It includes page no. and time etc.</li> 
+                    </ul>
+
 
 
 
                 <br/>
-
 
         </div>
 
