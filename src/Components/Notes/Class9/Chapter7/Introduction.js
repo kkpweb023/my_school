@@ -40,9 +40,9 @@ const Introduction = () => {
 
             <ol type='i'>
 
-                <li><b>Title Bar:</b> Loacted at the top of the screen.</li>
+                <li><b>Title Bar:</b> Located at the top of the screen.</li>
 
-                <li><b>Menu Bar:</b> Loacted below the title bar.It has writer menu options</li>
+                <li><b>Menu Bar:</b> Located below the title bar.It has writer menu options</li>
 
                 <li><b>Standard toolbar:</b> Frequently used commonds and utilities.</li>
 
@@ -68,7 +68,6 @@ const Introduction = () => {
                 <li><b>Status Bar:</b> Located the bottom. It display information - page numbers,the column,line number etc.</li>
 
             </ol>  
-
 
             <div><b>OpenOffice.org writer extension -</b> .odt</div>
   

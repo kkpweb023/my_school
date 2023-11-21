@@ -89,6 +89,50 @@ const WordProTerminology = () => {
 
                 <li>Placement of the text going past the right margin to the next line without pressing enter key is called word wrap.</li><br/>
                
+            <h4>5. <u>Indentation</u></h4>
+
+                <li>The distance between the text boundaries and page margin is called indent and the process of provinding it is called indentation.</li><br/>
+
+                <h5><u>Types of Indent</u></h5>
+
+                <h6 style={{marginLeft:"20px"}}>There are three types of indents:</h6> 
+
+                
+                    <ol type="i">
+                        <li>Positive Indent.</li>
+                        <li>Negative Indent.</li>
+                        <li>Hanging Indent.</li>
+                    </ol>
+
+                    <h6>(i) <u>Positive Indent </u></h6>
+
+                    <li>Text area is always narrower than the space between margin.</li>
+                    <li>Text is little inword from the margin.</li>
+
+                    
+                    <h6>(ii) <u>Negative Indent </u></h6>
+
+                    <li>The text to extend into the margin.</li>
+                    <li>Text is little onword from the margin.</li>
+
+                    <h6>(iii) <u>Hanging Indent </u></h6>
+
+                    <li>Hanging indent is the indentation of the part of paragraph/section.</li>
+             
+                    <li>It is used for glossory terms,resumes,bulleted etc.</li><br/>   
+
+            <h4>   <u>Paragraph Indentation</u></h4>
+
+                    <li>It affects the spacing within paragraphs,helping to organize and structure the text.</li>
+                    <li>It is used to offset selected paragraphs from other text in the document.</li><br/>
+
+
+
+
+
+                <br/>
+
+
         </div>
 
     </>
