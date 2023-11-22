@@ -3,6 +3,8 @@ import Accordion from "react-bootstrap/Accordion";
 import Marquee from "react-fast-marquee";
 import Introduction from "./Introduction";
 import WordProTerminology from "./WordProTerminology";
+import Editing from "./Editing";
+import ShortcutKey from "./ShortcutKey";
 
 
 
@@ -35,7 +37,7 @@ const NotesChap7 = () => {
             <Accordion.Item eventKey="2">
               <Accordion.Header>Editing and Formatting a document</Accordion.Header>
               <Accordion.Body>
-                      
+                   <Editing />   
               </Accordion.Body>
             </Accordion.Item>
 
@@ -44,7 +46,7 @@ const NotesChap7 = () => {
             <Accordion.Item eventKey="3">
               <Accordion.Header>Shortcut Keys</Accordion.Header>
               <Accordion.Body>
-                        
+                        <ShortcutKey />
               </Accordion.Body>
             </Accordion.Item>
 
