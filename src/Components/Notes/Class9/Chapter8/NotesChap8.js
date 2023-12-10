@@ -4,6 +4,7 @@ import Marquee from "react-fast-marquee";
 import List from "./List";
 import SpellCheck from "./SpellCheck";
 import FindReplace from "./FindReplace";
+import InsertGraphics from "./InsertGraphics";
 
 
 
@@ -42,6 +43,16 @@ const NotesChap8 = () => {
                  <FindReplace />
               </Accordion.Body>
             </Accordion.Item>
+
+
+            <Accordion.Item eventKey="3">
+              <Accordion.Header>Insert Graphics</Accordion.Header>
+              <Accordion.Body>
+                 <InsertGraphics />
+              </Accordion.Body>
+            </Accordion.Item>
+
+
             
 
           </Accordion>

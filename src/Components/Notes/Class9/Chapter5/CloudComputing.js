@@ -52,13 +52,13 @@ const CloudComputing = () => {
             </ul>
 
 
-            <h5>(ii) Platform as a Service(IaaS)</h5>
+            <h5>(ii) Platform as a Service(PaaS)</h5>
             <ul>
                 <li>PaaS provides computational resources i.e. provides runtime enviroment which allows programmers(developers) to easily create,test,run and deploy web applications.</li>
             </ul>
 
 
-            <h5>(iii) Software as a Service(IaaS)</h5>
+            <h5>(iii) Software as a Service(SaaS)</h5>
             <ul>
                 <li>It is software which is owned managed and delivered by one or more users.</li>
 
