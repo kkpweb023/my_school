@@ -5,6 +5,7 @@ import List from "./List";
 import SpellCheck from "./SpellCheck";
 import FindReplace from "./FindReplace";
 import InsertGraphics from "./InsertGraphics";
+import Table from "./Table";
 
 
 
@@ -51,9 +52,22 @@ const NotesChap8 = () => {
                  <InsertGraphics />
               </Accordion.Body>
             </Accordion.Item>
-
+            
 
             
+            <Accordion.Item eventKey="4">
+              <Accordion.Header>Table</Accordion.Header>
+              <Accordion.Body>
+                 <Table />
+              </Accordion.Body>
+            </Accordion.Item>
+
+
+
+
+
+
+
 
           </Accordion>
         </div>
