@@ -2,6 +2,7 @@ import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import Marquee from "react-fast-marquee";
 import Presentation from "./Presentation";
+import OpenOfficeImpress from "./OpenOfficeImpress";
 
 
 
@@ -29,7 +30,7 @@ const NotesChap9 = () => {
             <Accordion.Item eventKey="1">
               <Accordion.Header>OpenOffice.org Impress</Accordion.Header>
               <Accordion.Body>
-                 <h2>Uploading soon, Please wait--- </h2>
+                 <OpenOfficeImpress />
               </Accordion.Body>
             </Accordion.Item>
 
