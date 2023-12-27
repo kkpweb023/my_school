@@ -34,6 +34,7 @@ import NotesChap6 from "./Components/Notes/Class9/Chapter6/NotesChap6";
 import NotesChap5 from "./Components/Notes/Class9/Chapter5/NotesChap5";
 import NotesChap7 from "./Components/Notes/Class9/Chapter7/NotesChap7";
 import NotesChap8 from "./Components/Notes/Class9/Chapter8/NotesChap8";
+import NotesChap9 from "./Components/Notes/Class9/Chapter9/NotesChap9";
 
 
 
@@ -95,6 +96,7 @@ function App() {
     <Route path="/topic_notes/class_9/chapter_6" element={<NotesChap6 />} />
     <Route path="/topic_notes/class_9/chapter_7" element={<NotesChap7 />} />
     <Route path="/topic_notes/class_9/chapter_8" element={<NotesChap8 />} />
+    <Route path="/topic_notes/class_9/chapter_9" element={<NotesChap9 />} />
    
     
 

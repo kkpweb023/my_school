@@ -88,6 +88,18 @@ const Notes9 = () => {
 
 
 
+          <tr>
+            <td>7</td>
+            <td>Chapter 9</td>
+            <td>
+              <Link to={"/topic_notes/class_9/chapter_9"} style={{textDecorationLine:"none"}}>
+                <img src={Enter} alt='enter_img' style={{width:"40px"}}/>
+              </Link>
+            </td>
+          </tr>
+
+
+
 
           
 
