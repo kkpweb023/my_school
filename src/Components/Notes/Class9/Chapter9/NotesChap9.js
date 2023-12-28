@@ -3,6 +3,8 @@ import Accordion from "react-bootstrap/Accordion";
 import Marquee from "react-fast-marquee";
 import Presentation from "./Presentation";
 import OpenOfficeImpress from "./OpenOfficeImpress";
+import Slide from "./Slide";
+import EditingFormatting from "./EditingFormatting";
 
 
 
@@ -39,7 +41,7 @@ const NotesChap9 = () => {
             <Accordion.Item eventKey="2">
               <Accordion.Header>Slide</Accordion.Header>
               <Accordion.Body>
-                <h2>Uploading soon, Please wait--- </h2>
+                <Slide />
               </Accordion.Body>
             </Accordion.Item>
 
@@ -47,7 +49,7 @@ const NotesChap9 = () => {
             <Accordion.Item eventKey="3">
               <Accordion.Header>Editing and Formatting a Slide</Accordion.Header>
               <Accordion.Body>
-                  <h2>Uploading soon, Please wait--- </h2>
+                  <EditingFormatting />
               </Accordion.Body>
             </Accordion.Item>
             
@@ -56,7 +58,7 @@ const NotesChap9 = () => {
             <Accordion.Item eventKey="4">
               <Accordion.Header>Slide Sorter View</Accordion.Header>
               <Accordion.Body>
-                  <h2>Uploading soon, Please wait--- </h2>
+                  <h2 style={{color:"red"}}>Uploading soon, Please wait--- </h2>
               </Accordion.Body>
             </Accordion.Item>
 
