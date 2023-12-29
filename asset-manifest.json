@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/my_school/static/css/main.1536c26e.css",
-    "main.js": "/my_school/static/js/main.cb4a0f97.js",
+    "main.js": "/my_school/static/js/main.7e403d57.js",
     "static/js/498.8c7f5c60.chunk.js": "/my_school/static/js/498.8c7f5c60.chunk.js",
     "static/js/703.674d2745.chunk.js": "/my_school/static/js/703.674d2745.chunk.js",
     "static/js/513.47d1101d.chunk.js": "/my_school/static/js/513.47d1101d.chunk.js",
+    "static/media/pic12.jpg": "/my_school/static/media/pic12.a4df8c09ffcd8c24d2e9.jpg",
     "static/media/Pic5.jpg": "/my_school/static/media/Pic5.8c6ce1bd70aacf0c4be3.jpg",
     "static/media/pdf.PNG": "/my_school/static/media/pdf.89c58e2ed6f225d29fe0.PNG",
     "static/media/Enter2.png": "/my_school/static/media/Enter2.e12058ff418dc104342f.png",
@@ -13,16 +14,15 @@
     "static/media/docPic.png": "/my_school/static/media/docPic.e673f432d5232a8dc818.png",
     "static/media/sign.png": "/my_school/static/media/sign.add2fb638c66c1586de5.png",
     "static/media/pageNot.avif": "/my_school/static/media/pageNot.1c552a1dff5163be239c.avif",
-    "static/media/pic11.jpg": "/my_school/static/media/pic11.5c9091f9cfc13ed4493d.jpg",
     "index.html": "/my_school/index.html",
     "main.1536c26e.css.map": "/my_school/static/css/main.1536c26e.css.map",
-    "main.cb4a0f97.js.map": "/my_school/static/js/main.cb4a0f97.js.map",
+    "main.7e403d57.js.map": "/my_school/static/js/main.7e403d57.js.map",
     "498.8c7f5c60.chunk.js.map": "/my_school/static/js/498.8c7f5c60.chunk.js.map",
     "703.674d2745.chunk.js.map": "/my_school/static/js/703.674d2745.chunk.js.map",
     "513.47d1101d.chunk.js.map": "/my_school/static/js/513.47d1101d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1536c26e.css",
-    "static/js/main.cb4a0f97.js"
+    "static/js/main.7e403d57.js"
   ]
 }
