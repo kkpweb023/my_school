@@ -1,17 +1,10 @@
 import React from 'react';
-import Marquee from "react-fast-marquee";
-import Dont from '../../../../Images/pic11.jpg';
+
 
 const EditingFormatting = () => {
   return (
 
     <>
-
-        <Marquee>
-            <h2 style={{color:"red"}}>Don't write</h2>
-            <img src={Dont} alt='enter_img' style={{width:"120px"}}/>
-        </Marquee>
-
         <div className="software" style={{textAlign:"justify"}}>
 
             <h3 style={{textDecorationLine:"underline",textDecorationStyle:"double"}}>Editing and Formatting a Slide</h3><br />

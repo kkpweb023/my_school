@@ -58,7 +58,9 @@ const NotesChap9 = () => {
             <Accordion.Item eventKey="4">
               <Accordion.Header>Slide Sorter View</Accordion.Header>
               <Accordion.Body>
-                  <h2 style={{color:"red"}}>Uploading soon, Please wait--- </h2>
+                  <Marquee direction="right">
+                    <h2 style={{color:"red"}}>Uploading soon, Please wait---</h2>
+                  </Marquee>
               </Accordion.Body>
             </Accordion.Item>
 
