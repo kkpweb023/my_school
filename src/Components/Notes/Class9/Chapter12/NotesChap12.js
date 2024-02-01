@@ -2,6 +2,7 @@ import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import Marquee from "react-fast-marquee";
 import IntroPY from "./IntroPY";
+import Identifiers from "./Identifiers";
 
 
 
@@ -26,13 +27,13 @@ const NotesChap12 = () => {
             <Accordion.Item eventKey="2">
               <Accordion.Header>Identifiers</Accordion.Header>
               <Accordion.Body>
-               
+                <Identifiers />
               </Accordion.Body>
             </Accordion.Item>
 
 
             <Accordion.Item eventKey="3">
-              <Accordion.Header></Accordion.Header>
+              <Accordion.Header>Data Types</Accordion.Header>
               <Accordion.Body>
            
               </Accordion.Body>
