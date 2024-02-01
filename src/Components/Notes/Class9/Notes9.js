@@ -123,6 +123,18 @@ const Notes9 = () => {
 
 
           
+          <tr>
+            <td>10</td>
+            <td>Chapter varying with class(6,7,8 and 9)</td>
+            <td>
+              <Link to={"/topic_notes/class_9/chapter_12"} style={{textDecorationLine:"none"}}>
+                <img src={Enter} alt='enter_img' style={{width:"40px"}}/>
+              </Link>
+            </td>
+          </tr>
+
+
+          
 
         </tbody>
       </table>
