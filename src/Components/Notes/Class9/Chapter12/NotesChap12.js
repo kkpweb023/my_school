@@ -5,6 +5,7 @@ import IntroPY from "./IntroPY";
 import Identifiers from "./Identifiers";
 import DataType from "./DataType";
 import Operators from "./Operators";
+import Conditional from "./Conditional";
 
 
 
@@ -46,6 +47,13 @@ const NotesChap12 = () => {
               <Accordion.Header>Operators</Accordion.Header>
               <Accordion.Body>
                 <Operators />
+              </Accordion.Body>
+            </Accordion.Item>
+
+            <Accordion.Item eventKey="5">
+              <Accordion.Header>Conditional</Accordion.Header>
+              <Accordion.Body>
+                <Conditional />
               </Accordion.Body>
             </Accordion.Item>
 
