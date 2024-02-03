@@ -4,6 +4,7 @@ import Marquee from "react-fast-marquee";
 import IntroPY from "./IntroPY";
 import Identifiers from "./Identifiers";
 import DataType from "./DataType";
+import Operators from "./Operators";
 
 
 
@@ -37,6 +38,14 @@ const NotesChap12 = () => {
               <Accordion.Header>Data Types</Accordion.Header>
               <Accordion.Body>
                 <DataType />
+              </Accordion.Body>
+            </Accordion.Item>
+
+            
+            <Accordion.Item eventKey="4">
+              <Accordion.Header>Operators</Accordion.Header>
+              <Accordion.Body>
+                <Operators />
               </Accordion.Body>
             </Accordion.Item>
 
