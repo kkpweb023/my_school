@@ -95,7 +95,7 @@ const Identifiers = () => {
             </div>
 
               <Marquee>
-                  <h1 style={{color:"red"}}>Left 10 lines in page for coading</h1>
+                  <h2 style={{color:"red"}}>Left 10 lines in page for coading</h2>
               </Marquee>
           
         </div>
