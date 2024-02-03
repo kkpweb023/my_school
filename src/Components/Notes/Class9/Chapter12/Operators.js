@@ -206,10 +206,102 @@ const Operators = () => {
                     <b><u>Priority of Comparison Operator</u></b> 
                 <div>{`>`},{`<`},{`=>`},{`<=`} ----   ==,!=</div>
 
-
                 <Marquee>
-                  <h2 style={{color:"red"}}>Left 5 line for coading....</h2>
+                  <h2 style={{color:"red"}}>Left 5 lines for coading....</h2>
                 </Marquee>
+                <br />
+
+
+                <h5>4.Logical Operators</h5>
+                <li>It is used while framing or combining more than one condition in conditional statements.</li>
+                <li>It gives the output in form of Boolean value(bool)- True or False.</li>
+                <li>These operators are:- and,or,not</li> 
+                <br/>
+
+
+                <h5>5.Identity Operators</h5>
+                <li>These operator are used to compare the objects are of same type or not & they share same memory location or not.</li>
+                <li>These operators are:- is & is not</li> 
+                <li>Output - True or False</li> 
+                  <div>eg:<br /> 
+                          <b>Q1.</b>  x=10 <br />
+                              y= 10 <br /> 
+                              z=x <br /> 
+
+                          <b>sol:</b> print(x is y) - o/p= true <br />
+                               print(x is z) - o/p= true <br />
+                  </div>
+                  <br />
+                  <div><b>Q2.</b>  x=10 <br />
+                              y= 20 <br /> 
+                
+                          <b>sol:</b> print(x is y) - o/p= false <br />
+                              b/c print(id(x)) <br />
+                  </div>
+                <br/>
+
+
+
+                <h5>6. Membership Operators</h5>
+                <li>It is used to test if a sequence is presented in an object or not,while checking the availability of any value in a sequence like list,tuple etc.</li>
+                <li>These operators are:- in & not in</li> 
+                <li>Output - True or False</li> 
+                  <div>eg:<br /> 
+                          <b>Q1.</b> list=[1,2,3,4,5] <br />
+                          <b>sol:</b> print(1 in list) - o/p= true <br />
+                  </div>
+                  <br />
+                  
+                  <div><b>Q2.</b>To find your name registred or not in reg_user = ["varun","ravi","amit","nitin"] ?<br />
+
+                    <b>sol: </b>
+                    <Marquee>
+                      <h2 style={{color:"red"}}>Left 7 lines for coading solution....</h2>
+                    </Marquee>
+
+                  </div>
+                <br/>
+
+
+                <h5>7. Bitwise operator</h5>
+                <li>It is used to perform operations on individual bits of binary number.</li>
+                <b><u>These operators are:-</u></b> 
+                <br/>
+                <table className='soft_table'>
+                      <thead>
+                          <tr>
+                              <th><center>Operator</center></th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>& (bitwise AND)</td>
+                          </tr>
+
+                          <tr>
+                            <td>| (bitwise OR)</td>
+                          </tr>
+
+                          <tr>        
+                            <td>^ (bitwise XOR)</td>
+                          </tr>
+
+                          <tr>
+                          <td>~ (bitwise NOT)</td>
+                          </tr>
+
+                          <tr>
+                          <td>{`<<`} (bitwise left shift)</td>
+                          </tr>
+
+                          <tr>
+                          <td>{`>>`} (bitwise right shift)</td>
+                          </tr>
+
+                      </tbody>
+                </table>
+                    <b><u>Priority of Comparison Operator</u></b> 
+                <div>{`~`},{`<<`},{`>>`},{`&`},{`^`},{`|`}</div>
                 <br />
 
 
