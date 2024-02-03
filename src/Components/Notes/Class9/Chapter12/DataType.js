@@ -75,39 +75,41 @@ const DataType = () => {
                         </ul> 
                       </li>
 
-                      <b><u>Difference Between List and Tuple</u></b> 
-                      <br/>
-                      <table className='soft_table'>
-                          <thead>
-                              <tr>
-                                  <th><center>List</center></th>
-                                  <th><center>Tuple</center></th>
-                              </tr>
-                          </thead>
-                          <tbody>
-                              <tr>
-                                  <td>Mutable.</td>
-                                  <td>Immutable.</td>
-                              </tr>
-
-                              <tr>
-                                  <td>Slower</td>
-                                  <td>Faster.</td>
-                              </tr>
-
-                              <tr>        
-                                  <td>defined within [ ].</td>
-                                  <td>defined within ( ).</td>
-                              </tr>
-
-                              <tr>
-                                  <td>change dynamically.</td>
-                                  <td>cannot change dynamically</td>
-                              </tr>
-                          </tbody>
-                        </table>
                     </ol>
-              </ul><br />
+
+              </ul>
+
+              <b><u>Difference Between List and Tuple</u></b> 
+                <br/>
+                  <table className='soft_table'>
+                      <thead>
+                          <tr>
+                              <th><center>List</center></th>
+                              <th><center>Tuple</center></th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>Mutable.</td>
+                              <td>Immutable.</td>
+                          </tr>
+
+                          <tr>
+                              <td>Slower</td>
+                              <td>Faster.</td>
+                          </tr>
+
+                          <tr>        
+                              <td>defined within [ ].</td>
+                              <td>defined within ( ).</td>
+                          </tr>
+
+                          <tr>
+                              <td>change dynamically.</td>
+                              <td>cannot change dynamically</td>
+                          </tr>
+                      </tbody>
+                    </table><br />
 
 
               <h5>4. Mapping Data Type</h5>
