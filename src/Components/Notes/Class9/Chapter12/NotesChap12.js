@@ -6,6 +6,7 @@ import Identifiers from "./Identifiers";
 import DataType from "./DataType";
 import Operators from "./Operators";
 import Conditional from "./Conditional";
+import Looping from "./Looping";
 
 
 
@@ -54,6 +55,15 @@ const NotesChap12 = () => {
               <Accordion.Header>Conditional</Accordion.Header>
               <Accordion.Body>
                 <Conditional />
+              </Accordion.Body>
+            </Accordion.Item>
+
+
+            
+            <Accordion.Item eventKey="6">
+              <Accordion.Header>Looping Statement</Accordion.Header>
+              <Accordion.Body>
+                <Looping />
               </Accordion.Body>
             </Accordion.Item>
 
