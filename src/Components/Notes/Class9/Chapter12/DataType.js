@@ -71,7 +71,7 @@ const DataType = () => {
                         <ul>
                           <li>It is an ordered collection of two or more items.</li>
                           <li>These items are put in parenthese (round bracket).</li>
-                          <li>eg- list = [12,13,14,15] , ["apple","banana"]</li>
+                          <li>eg- list = (12,13,14,15) , ("apple","banana")</li>
                         </ul> 
                       </li>
 
@@ -141,7 +141,7 @@ const DataType = () => {
               <li>It is used to find the data type a certain</li>
 
               <Marquee>
-                  <h2 style={{color:"red"}}>Left 2 page for coading</h2>
+                  <h2 style={{color:"red"}}>Left 2 page for coding</h2>
               </Marquee>
 
         </div>

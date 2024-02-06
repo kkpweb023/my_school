@@ -85,7 +85,7 @@ const Operators = () => {
                 <div>** {`=>`} *,/,//,%  {`=>`} +,-</div>
 
                 <Marquee>
-                  <h2 style={{color:"red"}}>Left 1 page for coading....</h2>
+                  <h2 style={{color:"red"}}>Left 1 page for coding....</h2>
                 </Marquee>
                 <br />
 
@@ -207,7 +207,7 @@ const Operators = () => {
                 <div>{`>`},{`<`},{`=>`},{`<=`} ----   ==,!=</div>
 
                 <Marquee>
-                  <h2 style={{color:"red"}}>Left 5 lines for coading....</h2>
+                  <h2 style={{color:"red"}}>Left 5 lines for coding....</h2>
                 </Marquee>
                 <br />
 
@@ -256,7 +256,7 @@ const Operators = () => {
 
                     <b>sol: </b>
                     <Marquee>
-                      <h2 style={{color:"red"}}>Left 7 lines for coading solution....</h2>
+                      <h2 style={{color:"red"}}>Left 7 lines for coding solution....</h2>
                     </Marquee>
 
                   </div>
