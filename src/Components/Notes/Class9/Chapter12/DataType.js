@@ -141,7 +141,7 @@ const DataType = () => {
               <li>It is used to find the data type a certain</li>
 
               <Marquee>
-                  <h2 style={{color:"red"}}>Left 2 page for coding</h2>
+                  <h2 style={{color:"red"}}>Left 1 page for coding</h2>
               </Marquee>
 
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Marquee from 'react-fast-marquee';
+
 
 
 const Identifiers = () => {
@@ -92,11 +92,22 @@ const Identifiers = () => {
 
             <div>
                 <b>Q.1. Write a program to print any three variables on the same line using standard and end =" " method?</b>
-            </div>
 
-              <Marquee>
-                  <h2 style={{color:"red"}}>Left 10 lines in page for coding</h2>
-              </Marquee>
+                <p>
+
+                  c = 58<br />
+                  m = 78.5<br />
+                  name = "Hello" <br />
+                  print(c,m,name) <br />
+
+                  <b><u>using end=" " method</u></b> <br />
+                  print(c,end="/t")<br />
+                  print(m,end="/t")<br />
+                  print(name)
+
+
+                </p>
+            </div>
           
         </div>
 
