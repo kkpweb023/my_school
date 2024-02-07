@@ -7,6 +7,7 @@ import DataType from "./DataType";
 import Operators from "./Operators";
 import Conditional from "./Conditional";
 import Looping from "./Looping";
+import List from "./List";
 
 
 
@@ -66,6 +67,16 @@ const NotesChap12 = () => {
                 <Looping />
               </Accordion.Body>
             </Accordion.Item>
+
+
+                        
+            <Accordion.Item eventKey="7">
+              <Accordion.Header>List</Accordion.Header>
+              <Accordion.Body>
+                <List />
+              </Accordion.Body>
+            </Accordion.Item>
+
 
 
           </Accordion>
