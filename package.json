@@ -3,7 +3,7 @@
   "homepage": "https://kkpweb023.github.io/my_school",
   "version": "0.1.0",
   "private": "true",
-  "proxy": "https://unusual-elk-flannel-nightgown.cyclic.app",
+  "proxy": "https://my-school-u3bk.onrender.com",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
