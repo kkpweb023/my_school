@@ -5,7 +5,7 @@ module.exports = app => {
     app.use(
             createProxyMiddleware('/endpoint',
                         { 
-                            target: 'https://unusual-elk-flannel-nightgown.cyclic.app', 
+                            target: 'https://notesdatabase-ycw0.onrender.com', 
                             secure:  false,
                             changeOrigin: true 
                         })
